@@ -23,6 +23,21 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult SignUp()
+    {
+        return View();
+    }
+
+    public IActionResult Booking()
+    {
+        return View();
+    }
+
+    public IActionResult ViewAppoint()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
