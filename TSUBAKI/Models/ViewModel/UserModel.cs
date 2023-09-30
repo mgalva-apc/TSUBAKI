@@ -11,7 +11,7 @@ namespace TSUBAKI.Models.ViewModel
         public string LoginName {get; set;}
         [Required(ErrorMessage = "*")]
         [Display(Name = "Password")]
-        public string Password {get; set;}
+        public string PasswordEncryptedText {get; set;}
         [Required(ErrorMessage = "*")]
         [Display(Name = "First Name")]
         public string FirstName {get; set;}

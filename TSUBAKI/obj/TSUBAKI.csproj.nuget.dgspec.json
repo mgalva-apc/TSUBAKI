@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {}
+    "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {}
   },
   "projects": {
-    "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {
+    "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
+        "projectUniqueName": "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
         "projectName": "TSUBAKI",
-        "projectPath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
+        "projectPath": "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
         "packagesPath": "C:\\Users\\jamzy\\.nuget\\packages\\",
-        "outputPath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\obj\\",
+        "outputPath": "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jamzy\\AppData\\Roaming\\NuGet\\NuGet.Config"
