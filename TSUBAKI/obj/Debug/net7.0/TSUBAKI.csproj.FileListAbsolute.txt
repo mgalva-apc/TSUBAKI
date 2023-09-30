@@ -38,3 +38,4 @@ D:\f i l e s\codes\school codes\TSUBAKI\TSUBAKI\obj\Debug\net7.0\TSUBAKI.RazorAs
 D:\f i l e s\codes\school codes\TSUBAKI\TSUBAKI\obj\Debug\net7.0\TSUBAKI.dll
 D:\f i l e s\codes\school codes\TSUBAKI\TSUBAKI\obj\Debug\net7.0\refint\TSUBAKI.dll
 D:\f i l e s\codes\school codes\TSUBAKI\TSUBAKI\obj\Debug\net7.0\TSUBAKI.pdb
+D:\f i l e s\codes\school codes\TSUBAKI\TSUBAKI\obj\Debug\net7.0\TSUBAKI.csproj.AssemblyReference.cache

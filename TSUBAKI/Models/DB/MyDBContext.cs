@@ -14,6 +14,7 @@ namespace TSUBAKI.Models.DB
         }
 
         public virtual DbSet<Users> Users {get; set;}
+        public virtual DbSet<Schedule> Schedule {get; set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -72,23 +73,11 @@ namespace TSUBAKI.Models.DB
                 .HasColumnName("RowModifiedDateTime")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
             });
-        }
-        public virtual DbSet<Schedule> Schedule {get; set;}
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if(!optionsBuilder.IsConfigured)
-            {
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\AYAKADB; Initial Catalog=DemoDB; Integrated Security=True; Multiple Active Result Sets=True");
-            }
-        }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
             modelBuilder.Entity<Schedule>(entity=>
             {
                 entity.ToTable("ScheduleApps");
 
-                entity.Property(e => e.UserID)
+                entity.Property(e => e.ScheduleID)
                 .HasColumnName("ScheduleID")
                 .HasColumnType("int");
 
