@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {}
+    "c:\\Users\\Beatrice\\Documents\\ENTJAVA stuff\\TSUBAKI MVP\\TSUBAKI\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {}
   },
   "projects": {
-    "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {
+    "c:\\Users\\Beatrice\\Documents\\ENTJAVA stuff\\TSUBAKI MVP\\TSUBAKI\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
+        "projectUniqueName": "c:\\Users\\Beatrice\\Documents\\ENTJAVA stuff\\TSUBAKI MVP\\TSUBAKI\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
         "projectName": "TSUBAKI",
-        "projectPath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
-        "packagesPath": "C:\\Users\\jamzy\\.nuget\\packages\\",
-        "outputPath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\obj\\",
+        "projectPath": "c:\\Users\\Beatrice\\Documents\\ENTJAVA stuff\\TSUBAKI MVP\\TSUBAKI\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
+        "packagesPath": "C:\\Users\\Beatrice\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Beatrice\\Documents\\ENTJAVA stuff\\TSUBAKI MVP\\TSUBAKI\\TSUBAKI\\TSUBAKI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jamzy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Beatrice\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
