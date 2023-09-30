@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Beatrice\\Documents\\ENTJAVA stuff\\TSUBAKI MVP\\TSUBAKI\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {}
+    "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Beatrice\\Documents\\ENTJAVA stuff\\TSUBAKI MVP\\TSUBAKI\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {
+    "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Beatrice\\Documents\\ENTJAVA stuff\\TSUBAKI MVP\\TSUBAKI\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
+        "projectUniqueName": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
         "projectName": "TSUBAKI",
-        "projectPath": "c:\\Users\\Beatrice\\Documents\\ENTJAVA stuff\\TSUBAKI MVP\\TSUBAKI\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
+        "projectPath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
         "packagesPath": "C:\\Users\\Beatrice\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Beatrice\\Documents\\ENTJAVA stuff\\TSUBAKI MVP\\TSUBAKI\\TSUBAKI\\TSUBAKI\\obj\\",
+        "outputPath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\TSUBAKI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Beatrice\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

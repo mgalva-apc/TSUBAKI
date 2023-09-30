@@ -1,0 +1,48 @@
+div#general-container{
+    display:flex;
+    gap: 3vw;
+    justify-content:center;
+}
+
+.information{
+    width: 42vw;
+    height: 83vh;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color:bisque;
+    border-radius: 15px;
+}
+
+.account-ask{
+    background-color:azure;
+    width: 38vw;
+    height: 54vh;
+    margin: 1vw;
+}
+
+.account-ask h5{
+    margin-top: 2vh;
+}
+
+.booking-pane{
+    width: 42vw;
+    height: 83vh;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color:lightpink;
+    border-radius: 15px;
+}
+
+.booking-details{
+    padding-top: 15px;
+}
+
+img#cal-place{
+    width: 25vw;
+    margin-left: 7vw;
+    border-radius: 10px;
+}
+
+div#username{
+    padding-bottom: 15px;
+}
