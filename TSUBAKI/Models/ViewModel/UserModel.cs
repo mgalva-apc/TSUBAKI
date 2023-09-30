@@ -7,7 +7,7 @@ namespace TSUBAKI.Models.ViewModel
         [Key]
         public int UserID {get; set;}
         [Required(ErrorMessage = "*")]
-        [Display(Name = "Login ID")]
+        [Display(Name = "Login Name")]
         public string LoginName {get; set;}
         [Required(ErrorMessage = "*")]
         [Display(Name = "Password")]
