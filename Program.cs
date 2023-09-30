@@ -21,6 +21,14 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "Booking",
+    pattern: "{area:exists}/{controller=Book}/{action=Booking}");
+
+app.MapControllerRoute(
+    name: "Account",
+    pattern: "{area:exists}/{controller=Account}/{action=SignUp}");
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
