@@ -39,7 +39,7 @@ namespace TSUBAKI.Models.EntityManager
         {
             using (MyDBContext db = new MyDBContext())
             {
-                return db.Schedule.Where(u => u.Month.Equals(Month) && u.Day.Equals(Day) && u.TimeSlot.Equals(TimeSlot)).Any();
+                return db.Schedule.Where(a => a.Month.Equals(Month) && a.Day.Equals(Day) && a.TimeSlot.Equals(TimeSlot)).Any();
             }
         }
     }

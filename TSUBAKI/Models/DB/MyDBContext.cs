@@ -20,7 +20,7 @@ namespace TSUBAKI.Models.DB
         {
             if(!optionsBuilder.IsConfigured)
             {
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\AYAKADB; Initial Catalog=DemoDB; Integrated Security=True; Multiple Active Result Sets=True");
+            optionsBuilder.UseSqlServer("Data Source=(localdb)\\AYAKADB; Initial Catalog=AYAKADB; Integrated Security=True; Multiple Active Result Sets=True");
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -73,7 +73,7 @@ namespace TSUBAKI.Models.DB
                 .HasColumnName("RowModifiedDateTime")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
             });
-            
+
             modelBuilder.Entity<Schedule>(entity=>
             {
                 entity.ToTable("Schedule");
@@ -95,6 +95,11 @@ namespace TSUBAKI.Models.DB
                 entity.Property(e => e.Day)
                 .HasColumnName("Day")
                 .HasMaxLength(2)
+                .IsUnicode(false);
+
+                entity.Property(e => e.TimeSlot)
+                .HasColumnName("TimeSlot")
+                .HasMaxLength(20)
                 .IsUnicode(false);
 
                 entity.Property(e => e.CreatedBy)
