@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {}
+    "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {}
   },
   "projects": {
-    "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {
+    "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
+        "projectUniqueName": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
         "projectName": "TSUBAKI",
-        "projectPath": "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
+        "projectPath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
         "packagesPath": "C:\\Users\\jamzy\\.nuget\\packages\\",
-        "outputPath": "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\obj\\",
+        "outputPath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jamzy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
