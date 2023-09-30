@@ -89,21 +89,18 @@ namespace TSUBAKI.Models.DB
 
                 entity.Property(e => e.Month)
                 .HasColumnName("Month")
-                .HasMaxLength(10)
-                .IsUnicode(false);
+                .HasColumnType("varchar(20)");
 
                 entity.Property(e => e.Day)
                 .HasColumnName("Day")
-                .HasMaxLength(2)
-                .IsUnicode(false);
+                .HasColumnType("varchar(2)");
 
                 entity.Property(e => e.TimeSlot)
                 .HasColumnName("TimeSlot")
-                .HasMaxLength(20)
-                .IsUnicode(false);
+                .HasColumnType("varchar(20)");
 
                 entity.Property(e => e.CreatedBy)
-                .HasColumnName("RowCreatedSYSUserID")
+                .HasColumnName("RowCreatedScheduleID")
                 .HasColumnType("int");
 
                 entity.Property(e => e.CreatedDateTime)
@@ -111,7 +108,7 @@ namespace TSUBAKI.Models.DB
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
                 entity.Property(e => e.ModifiedBy)
-                .HasColumnName("RowModifiedSYSUserID")
+                .HasColumnName("RowModifiedScheduleID")
                 .HasColumnType("int");
 
                 entity.Property(e => e.ModifiedDateTime)

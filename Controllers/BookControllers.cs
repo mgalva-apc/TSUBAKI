@@ -21,20 +21,19 @@ namespace TSUBAKI.Controllers
                 if(!BM.IsScheduleExist(appointment.Month, appointment.Day, appointment.TimeSlot))
                 {
                     BM.AddSchedule(appointment);
-                    //FormsAuthentication.SetAuthCookie(user.FirstName, false);
                     return RedirectToAction("", "Home");
                 }
                 else
                     ModelState.AddModelError("", "Appointment schedule already taken.");
             }
-            return View();
+            return View ("Booking", appointment);
         }
             
         [HttpGet]
         public ActionResult GetAllAppointments()
         {
             var appointment = new BookManager().GetAllAppointments();
-            return View();
+            return View(appointment);
         }
     }
 }
