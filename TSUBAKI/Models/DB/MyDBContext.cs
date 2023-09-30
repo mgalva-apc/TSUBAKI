@@ -73,9 +73,10 @@ namespace TSUBAKI.Models.DB
                 .HasColumnName("RowModifiedDateTime")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
             });
+            
             modelBuilder.Entity<Schedule>(entity=>
             {
-                entity.ToTable("ScheduleApps");
+                entity.ToTable("Schedule");
 
                 entity.Property(e => e.ScheduleID)
                 .HasColumnName("ScheduleID")
