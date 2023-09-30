@@ -20,6 +20,10 @@ namespace TSUBAKI.Models.ViewModel
         public string Day {get; set;}
 
         [Required(ErrorMessage = "*")]
+        [Display(Name = "TimeSlot")]
+        public string TimeSlot {get; set;}
+
+        [Required(ErrorMessage = "*")]
         [Display(Name = "Created By")]
         public int CreatedBy {get; set;}
     }

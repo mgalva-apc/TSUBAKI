@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BPpA+Yo7PjlcXTfXRrIejM1C51rh7mwhbyYMITIpEYQYjVCUBXSuIsMVGDa2HcsnmbUNefxj1808g2xz81k5HQ==",
+  "dgSpecHash": "B3ySja9DnNe0mJZL+MdAeHQi6plO26LVoBQbXnuoLTfiHVS0379zKU72jrocWRpYAs4VxFF0ioASfEhjFCD4cQ==",
   "success": true,
-  "projectFilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
+  "projectFilePath": "D:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI\\TSUBAKI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jamzy\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\jamzy\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

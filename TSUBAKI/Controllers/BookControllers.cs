@@ -18,9 +18,9 @@ namespace TSUBAKI.Controllers
             if(ModelState.IsValid)
             {
                 BookManager BM = new BookManager();
-                if(!BM.IsScheduleExist(appointment.LoginName))
+                if(!BM.IsScheduleExist(appointment.Month, appointment.Day, appointment.TimeSlot))
                 {
-                    BM.AddUserAccount(appointment);
+                    BM.AddSchedule(appointment);
                     //FormsAuthentication.SetAuthCookie(user.FirstName, false);
                     return RedirectToAction("", "Home");
                 }

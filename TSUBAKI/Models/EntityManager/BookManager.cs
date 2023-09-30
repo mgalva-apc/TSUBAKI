@@ -7,15 +7,16 @@ namespace TSUBAKI.Models.EntityManager
 {
     public class BookManager
     {
-        public void AddUserAccount(UserModel user)
+        public void AddSchedule(BookModel appointment)
         {
             using (MyDBContext db = new MyDBContext())
             {
                 Schedule newSchedule = new Schedule
                 {
-                    LoginName = user.LoginName,
-                    Month = user.Month,
-                    Day = user.Day,
+                    LoginName = appointment.LoginName,
+                    Month = appointment.Month,
+                    Day = appointment.Day,
+                    TimeSlot = appointment.TimeSlot,
                     CreatedBy = 1,
                     CreatedDateTime = DateTime.Now,
                     ModifiedBy = 1,
@@ -34,11 +35,11 @@ namespace TSUBAKI.Models.EntityManager
                 return appointment = db.Schedule.ToList();
             }   
         }
-        public bool IsScheduleExist(string Month, string Day)
+        public bool IsScheduleExist(string Month, string Day, string TimeSlot)
         {
             using (MyDBContext db = new MyDBContext())
             {
-                return db.Schedule.Where(u => u.Month.Equals(Month) && u.Day.Equals(Day)).Any();
+                return db.Schedule.Where(u => u.Month.Equals(Month) && u.Day.Equals(Day) && u.TimeSlot.Equals(TimeSlot)).Any();
             }
         }
     }
