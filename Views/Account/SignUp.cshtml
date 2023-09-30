@@ -6,7 +6,7 @@
     ViewBag.Title = "SignUp";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h2>SignUp</h2>
+<h2>Sign Up</h2>
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -24,12 +24,12 @@
             </div>
         </div>
         <div class="form-group">
-            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class =
+            @Html.LabelFor(model => model.PasswordEncryptedText, htmlAttributes: new { @class =
         "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.PasswordFor(model => model.Password, new { @class = "form-control"
+                @Html.PasswordFor(model => model.PasswordEncryptedText, new { @class = "form-control"
             } )
-                @Html.ValidationMessageFor(model => model.Password, "", new { @class =
+                @Html.ValidationMessageFor(model => model.PasswordEncryptedText, "", new { @class =
             "text-danger" })
             </div>
         </div>
