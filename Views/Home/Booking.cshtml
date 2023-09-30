@@ -1,0 +1,77 @@
+@model TSUBAKI.Models.ViewModel.BookModel
+@{
+    ViewBag.Title = "Booking";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <div class="general-container">
+        <div class="information">
+            <h2>This will contain further information regarding the appointment process.</h2>
+        </div>
+        <div class="booking-pane">
+            <h4>Booking details will be as follows</h4>
+            <div class="booking-details">
+            <form>
+                <label for="LoginName">Username:</label><br>
+                    <input type="text" id="LoginName" name="LoginName"><br>
+                <label for="Month">Month</label>
+                    <select name="Month" id="Month">
+                        <option value="JAN">January</option>
+                        <option value="FEB">February</option>
+                        <option value="MAR">March</option>
+                        <option value="APR">April</option>
+                        <option value="MAY">May</option>
+                        <option value="JUN">June</option>
+                        <option value="JUL">July</option>
+                        <option value="AUG">August</option>
+                        <option value="SEP">September</option>
+                        <option value="OCT">October</option>
+                        <option value="NOV">November</option>
+                        <option value="DEC">December</option>
+                    </select>
+                <label for="Day">Day</label>
+                    <select name="Day" id="Day">
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">6</option>
+                        <option value="07">7</option>
+                        <option value="08">8</option>
+                        <option value="09">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                <label for="TimeSlot">Time Slots</label>
+                    <select name="TimeSlot" id="TimeSlot">
+                        <option value="slot1">9:30-11:30</option>
+                        <option value="slot2">11:30-1:30</option>
+                        <option value="slot3">3:30-5:30</option>
+                    </select>
+                <input type="submit" value="Book an Appointment" class="btn btn-default" />
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
