@@ -13,12 +13,12 @@ namespace TSUBAKI.Controllers
         }
 
         [HttpPost]
-        public ActionResult SignUp(BookModel appointment)
+        public ActionResult Schedule(BookModel appointment)
         {
             if(ModelState.IsValid)
             {
                 BookManager BM = new BookManager();
-                if(!BM.IsLoginNameExist(appointment.LoginName))
+                if(!BM.IsScheduleExist(appointment.LoginName))
                 {
                     BM.AddUserAccount(appointment);
                     //FormsAuthentication.SetAuthCookie(user.FirstName, false);
@@ -31,7 +31,7 @@ namespace TSUBAKI.Controllers
         }
             
         [HttpGet]
-        public ActionResult GetAppointment()
+        public ActionResult GetAllAppointments()
         {
             var appointment = new BookManager().GetAllAppointments();
             return View();
