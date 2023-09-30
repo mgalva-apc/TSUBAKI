@@ -26,7 +26,7 @@ namespace TSUBAKI.Models.DB
         {
             modelBuilder.Entity<Users>(entity=>
             {
-                entity.ToTable("SYSUserProfile");
+                entity.ToTable("SYSUser");
 
                 entity.Property(e => e.UserID)
                 .HasColumnName("SYSUserID")
@@ -36,7 +36,12 @@ namespace TSUBAKI.Models.DB
                 .HasColumnName("LoginName")
                 .HasMaxLength(50)
                 .IsUnicode(false);
-                
+
+                entity.Property(e => e.PasswordEncryptedText)
+                .HasColumnName("PasswordEncryptedText")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
                 entity.Property(e => e.FirstName)
                 .HasColumnName("FirstName")
                 .HasMaxLength(50)
