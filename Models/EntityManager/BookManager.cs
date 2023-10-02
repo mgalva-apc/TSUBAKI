@@ -35,6 +35,25 @@ namespace TSUBAKI.Models.EntityManager
                 return appointment = db.Schedule.ToList();
             }   
         }
+        public BooksModel GetAllAppointment()
+        {
+            BooksModel list = new BooksModel();
+
+            using (MyDBContext db = new MyDBContext())
+            {
+
+                list.Appointments = db.Schedule.Select(records => new BookModel()
+                {
+                    LoginName = records.LoginName,
+                    Month = records.Month,
+                    Day = records.Day,
+                    TimeSlot = records.TimeSlot,  
+                    CreatedBy = records.CreatedBy
+                }).ToList();
+            }
+
+            return list;
+        }
         public bool IsScheduleExist(string Month, string Day, string TimeSlot)
         {
             using (MyDBContext db = new MyDBContext())

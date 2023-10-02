@@ -12,6 +12,14 @@ namespace TSUBAKI.Controllers
             return View();
         }
 
+        public ActionResult ViewAppoint()
+        {
+            BookManager bm = new BookManager();
+            BooksModel appointment = bm.GetAllAppointment();
+
+            return View(appointment);
+        }
+
         [HttpPost]
         public ActionResult Booking(BookModel appointment)
         {
@@ -30,9 +38,9 @@ namespace TSUBAKI.Controllers
         }
             
         [HttpGet]
-        public ActionResult GetAllAppointments()
+        public ActionResult GetAppointments()
         {
-            var appointment = new BookManager().GetAllAppointments();
+            var appointment = new BookManager().GetAllAppointment();
             return View();
         }
     }

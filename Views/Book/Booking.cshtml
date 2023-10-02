@@ -82,9 +82,9 @@
             @Html.LabelFor(model => model.TimeSlot, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.DropDownListFor(model => model.TimeSlot, new List<SelectListItem> {
-            new SelectListItem { Text="9:30 AM - 11:30 AM", Value="slot1" },
-            new SelectListItem { Text="11:30 AM - 1:30 PM", Value="slot2" },
-            new SelectListItem { Text="3:30 PM - 5:30 PM", Value="slot3" }
+            new SelectListItem { Text="9:30 AM - 11:30 AM", Value="9:30AM - 11:30 AM" },
+            new SelectListItem { Text="11:30 AM - 1:30 PM", Value="11:30AM - 1:30PM" },
+            new SelectListItem { Text="3:30 PM - 5:30 PM", Value="3:30PM - 5:30PM" }
             }, new { @class = "form-control" })
             </div>
         </div>
