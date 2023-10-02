@@ -1,7 +1,7 @@
 {
   "__Version": 2,
-  "SerializedFilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\obj\\Debug\\net7.0\\project.razor.vscode.json",
-  "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\TSUBAKI.csproj",
+  "SerializedFilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\obj\\Debug\\net7.0\\project.razor.vscode.json",
+  "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\TSUBAKI.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0"
@@ -9,953 +9,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 937753383,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView\">\r\n             <summary>\r\n             Combines the behaviors of <see cref=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\" /> and <see cref=\"T:Microsoft.AspNetCore.Components.RouteView\" />,\r\n             so that it displays the page matching the specified route but only if the user\r\n             is authorized to see it.\r\n            \r\n             Additionally, this component supplies a cascading parameter of type <see cref=\"T:System.Threading.Tasks.Task`1\" />,\r\n             which makes the user's current authentication state available to descendants.\r\n             </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AuthorizeRouteView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "NotAuthorized",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "NotAuthorized",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Authorizing",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Authorizing",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Resource",
-            "TypeName": "System.Object",
-            "DisplayName": "object Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Resource",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Resource\">\r\n            <summary>\r\n            The resource to which access is being controlled.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Resource",
-              "Common.GloballyQualifiedTypeName": "global::System.Object"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "RouteData",
-            "TypeName": "Microsoft.AspNetCore.Components.RouteData",
-            "DisplayName": "Microsoft.AspNetCore.Components.RouteData Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.RouteData",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.RouteData\">\r\n            <summary>\r\n            Gets or sets the route data. This determines the page that will be\r\n            displayed and the parameter values that will be supplied to the page.\r\n            </summary>\r\n        </member>",
-            "IsEditorRequired": true,
-            "Metadata": {
-              "Common.PropertyName": "RouteData",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RouteData"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "DefaultLayout",
-            "TypeName": "System.Type",
-            "DisplayName": "System.Type Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.DefaultLayout",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.DefaultLayout\">\r\n            <summary>\r\n            Gets or sets the type of a layout to be used if the page does not\r\n            declare any layout. If specified, the type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />\r\n            and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "DefaultLayout",
-              "Common.GloballyQualifiedTypeName": "global::System.Type"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Context",
-            "Documentation": {
-              "Id": 12
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
-          "Common.TypeNameIdentifier": "AuthorizeRouteView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -667922814,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView\">\r\n             <summary>\r\n             Combines the behaviors of <see cref=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\" /> and <see cref=\"T:Microsoft.AspNetCore.Components.RouteView\" />,\r\n             so that it displays the page matching the specified route but only if the user\r\n             is authorized to see it.\r\n            \r\n             Additionally, this component supplies a cascading parameter of type <see cref=\"T:System.Threading.Tasks.Task`1\" />,\r\n             which makes the user's current authentication state available to descendants.\r\n             </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "NotAuthorized",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "NotAuthorized",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Authorizing",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Authorizing",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Resource",
-            "TypeName": "System.Object",
-            "DisplayName": "object Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Resource",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Resource\">\r\n            <summary>\r\n            The resource to which access is being controlled.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Resource",
-              "Common.GloballyQualifiedTypeName": "global::System.Object"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "RouteData",
-            "TypeName": "Microsoft.AspNetCore.Components.RouteData",
-            "DisplayName": "Microsoft.AspNetCore.Components.RouteData Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.RouteData",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.RouteData\">\r\n            <summary>\r\n            Gets or sets the route data. This determines the page that will be\r\n            displayed and the parameter values that will be supplied to the page.\r\n            </summary>\r\n        </member>",
-            "IsEditorRequired": true,
-            "Metadata": {
-              "Common.PropertyName": "RouteData",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RouteData"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "DefaultLayout",
-            "TypeName": "System.Type",
-            "DisplayName": "System.Type Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.DefaultLayout",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.DefaultLayout\">\r\n            <summary>\r\n            Gets or sets the type of a layout to be used if the page does not\r\n            declare any layout. If specified, the type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />\r\n            and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "DefaultLayout",
-              "Common.GloballyQualifiedTypeName": "global::System.Type"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Context",
-            "Documentation": {
-              "Id": 12
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
-          "Common.TypeNameIdentifier": "AuthorizeRouteView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -514907296,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NotAuthorized",
-            "ParentTag": "AuthorizeRouteView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized.Context",
-            "Documentation": {
-              "Id": 11,
-              "Args": [
-                "NotAuthorized"
-              ]
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
-          "Common.TypeNameIdentifier": "AuthorizeRouteView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1606436679,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NotAuthorized",
-            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized.Context",
-            "Documentation": {
-              "Id": 11,
-              "Args": [
-                "NotAuthorized"
-              ]
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
-          "Common.TypeNameIdentifier": "AuthorizeRouteView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -1938056273,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorizing",
-            "ParentTag": "AuthorizeRouteView"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-          "Common.TypeNameIdentifier": "AuthorizeRouteView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -448942417,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorizing",
-            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
-          "Common.TypeNameIdentifier": "AuthorizeRouteView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -536506725,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\">\r\n            <summary>\r\n            Displays differing content depending on the user's authorization status.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AuthorizeView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Policy",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Policy",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Policy\">\r\n            <summary>\r\n            The policy name that determines whether the content can be displayed.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Policy",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Roles",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Roles",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Roles\">\r\n            <summary>\r\n            A comma delimited list of roles that are allowed to display the content.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Roles",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "NotAuthorized",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "NotAuthorized",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Authorized",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Authorized",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Authorizing",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Authorizing",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Resource",
-            "TypeName": "System.Object",
-            "DisplayName": "object Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Resource",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Resource\">\r\n            <summary>\r\n            The resource to which access is being controlled.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Resource",
-              "Common.GloballyQualifiedTypeName": "global::System.Object"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Context",
-            "Documentation": {
-              "Id": 12
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
-          "Common.TypeNameIdentifier": "AuthorizeView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 823682683,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\">\r\n            <summary>\r\n            Displays differing content depending on the user's authorization status.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Policy",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Policy",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Policy\">\r\n            <summary>\r\n            The policy name that determines whether the content can be displayed.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Policy",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Roles",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Roles",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Roles\">\r\n            <summary>\r\n            A comma delimited list of roles that are allowed to display the content.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Roles",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "NotAuthorized",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "NotAuthorized",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Authorized",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Authorized",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Authorizing",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Authorizing",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Resource",
-            "TypeName": "System.Object",
-            "DisplayName": "object Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Resource",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Resource\">\r\n            <summary>\r\n            The resource to which access is being controlled.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Resource",
-              "Common.GloballyQualifiedTypeName": "global::System.Object"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Context",
-            "Documentation": {
-              "Id": 12
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
-          "Common.TypeNameIdentifier": "AuthorizeView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -674158334,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "AuthorizeView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent.Context",
-            "Documentation": {
-              "Id": 11,
-              "Args": [
-                "ChildContent"
-              ]
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
-          "Common.TypeNameIdentifier": "AuthorizeView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -604756652,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent.Context",
-            "Documentation": {
-              "Id": 11,
-              "Args": [
-                "ChildContent"
-              ]
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
-          "Common.TypeNameIdentifier": "AuthorizeView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -1645944753,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NotAuthorized",
-            "ParentTag": "AuthorizeView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized.Context",
-            "Documentation": {
-              "Id": 11,
-              "Args": [
-                "NotAuthorized"
-              ]
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
-          "Common.TypeNameIdentifier": "AuthorizeView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -238222498,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NotAuthorized",
-            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized.Context",
-            "Documentation": {
-              "Id": 11,
-              "Args": [
-                "NotAuthorized"
-              ]
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
-          "Common.TypeNameIdentifier": "AuthorizeView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -1320757424,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorized",
-            "ParentTag": "AuthorizeView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized.Context",
-            "Documentation": {
-              "Id": 11,
-              "Args": [
-                "Authorized"
-              ]
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-          "Common.TypeNameIdentifier": "AuthorizeView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 832177032,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorized",
-            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized.Context",
-            "Documentation": {
-              "Id": 11,
-              "Args": [
-                "Authorized"
-              ]
-            },
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
-          "Common.TypeNameIdentifier": "AuthorizeView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1728227096,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorizing",
-            "ParentTag": "AuthorizeView"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-          "Common.TypeNameIdentifier": "AuthorizeView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 113659528,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Authorizing",
-            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
-          "Common.TypeNameIdentifier": "AuthorizeView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1868443802,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CascadingAuthenticationState"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent\">\r\n            <summary>\r\n            The content to which the authentication state should be provided.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
-          "Common.TypeNameIdentifier": "CascadingAuthenticationState",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1713407357,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent\">\r\n            <summary>\r\n            The content to which the authentication state should be provided.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
-          "Common.TypeNameIdentifier": "CascadingAuthenticationState",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1165872521,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent\">\r\n            <summary>\r\n            The content to which the authentication state should be provided.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "CascadingAuthenticationState"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
-          "Common.TypeNameIdentifier": "CascadingAuthenticationState",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1067376456,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
-        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent\">\r\n            <summary>\r\n            The content to which the authentication state should be provided.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
-          "Common.TypeNameIdentifier": "CascadingAuthenticationState",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -2143821865,
+        "HashCode": 471801392,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -975,7 +29,7 @@
         }
       },
       {
-        "HashCode": -1237274674,
+        "HashCode": 1665629108,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -996,7 +50,7 @@
         }
       },
       {
-        "HashCode": 553867398,
+        "HashCode": 822943909,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1083,7 +137,7 @@
         }
       },
       {
-        "HashCode": 579875534,
+        "HashCode": -1812562379,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1171,7 +225,7 @@
         }
       },
       {
-        "HashCode": 1772987524,
+        "HashCode": 1091555709,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1193,7 +247,7 @@
         }
       },
       {
-        "HashCode": 1649458598,
+        "HashCode": -83619201,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1216,7 +270,7 @@
         }
       },
       {
-        "HashCode": 1983646551,
+        "HashCode": -1570552311,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1261,7 +315,7 @@
         }
       },
       {
-        "HashCode": -1617065034,
+        "HashCode": 1728266703,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1307,7 +361,7 @@
         }
       },
       {
-        "HashCode": 1969998217,
+        "HashCode": -1861110165,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1352,7 +406,7 @@
         }
       },
       {
-        "HashCode": -665768167,
+        "HashCode": 1334793862,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1398,7 +452,7 @@
         }
       },
       {
-        "HashCode": 1334192701,
+        "HashCode": -930385935,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1420,7 +474,7 @@
         }
       },
       {
-        "HashCode": 1017572156,
+        "HashCode": 2132197876,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1443,7 +497,7 @@
         }
       },
       {
-        "HashCode": -88510970,
+        "HashCode": -773432722,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1488,7 +542,7 @@
         }
       },
       {
-        "HashCode": -1099133980,
+        "HashCode": 505338828,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1534,7 +588,7 @@
         }
       },
       {
-        "HashCode": -1339213990,
+        "HashCode": -1090610939,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1653,7 +707,7 @@
         }
       },
       {
-        "HashCode": 930687766,
+        "HashCode": 1594523264,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1773,7 +827,7 @@
         }
       },
       {
-        "HashCode": -703823292,
+        "HashCode": -1519329630,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1795,7 +849,7 @@
         }
       },
       {
-        "HashCode": 12202558,
+        "HashCode": -1114191012,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1818,7 +872,7 @@
         }
       },
       {
-        "HashCode": 1629954008,
+        "HashCode": -1434265114,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1858,7 +912,7 @@
         }
       },
       {
-        "HashCode": 676426520,
+        "HashCode": -1701439079,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1899,7 +953,7 @@
         }
       },
       {
-        "HashCode": -1926288233,
+        "HashCode": -288640363,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1921,7 +975,7 @@
         }
       },
       {
-        "HashCode": 610301712,
+        "HashCode": -573499179,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1944,7 +998,953 @@
         }
       },
       {
-        "HashCode": -209151584,
+        "HashCode": -541267187,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView\">\r\n             <summary>\r\n             Combines the behaviors of <see cref=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\" /> and <see cref=\"T:Microsoft.AspNetCore.Components.RouteView\" />,\r\n             so that it displays the page matching the specified route but only if the user\r\n             is authorized to see it.\r\n            \r\n             Additionally, this component supplies a cascading parameter of type <see cref=\"T:System.Threading.Tasks.Task`1\" />,\r\n             which makes the user's current authentication state available to descendants.\r\n             </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthorizeRouteView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "NotAuthorized",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "NotAuthorized",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorizing",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Authorizing",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Resource",
+            "TypeName": "System.Object",
+            "DisplayName": "object Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Resource",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Resource\">\r\n            <summary>\r\n            The resource to which access is being controlled.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Resource",
+              "Common.GloballyQualifiedTypeName": "global::System.Object"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "RouteData",
+            "TypeName": "Microsoft.AspNetCore.Components.RouteData",
+            "DisplayName": "Microsoft.AspNetCore.Components.RouteData Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.RouteData",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.RouteData\">\r\n            <summary>\r\n            Gets or sets the route data. This determines the page that will be\r\n            displayed and the parameter values that will be supplied to the page.\r\n            </summary>\r\n        </member>",
+            "IsEditorRequired": true,
+            "Metadata": {
+              "Common.PropertyName": "RouteData",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RouteData"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DefaultLayout",
+            "TypeName": "System.Type",
+            "DisplayName": "System.Type Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.DefaultLayout",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.DefaultLayout\">\r\n            <summary>\r\n            Gets or sets the type of a layout to be used if the page does not\r\n            declare any layout. If specified, the type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />\r\n            and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "DefaultLayout",
+              "Common.GloballyQualifiedTypeName": "global::System.Type"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Context",
+            "Documentation": {
+              "Id": 12
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
+          "Common.TypeNameIdentifier": "AuthorizeRouteView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -2069857146,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView\">\r\n             <summary>\r\n             Combines the behaviors of <see cref=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\" /> and <see cref=\"T:Microsoft.AspNetCore.Components.RouteView\" />,\r\n             so that it displays the page matching the specified route but only if the user\r\n             is authorized to see it.\r\n            \r\n             Additionally, this component supplies a cascading parameter of type <see cref=\"T:System.Threading.Tasks.Task`1\" />,\r\n             which makes the user's current authentication state available to descendants.\r\n             </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "NotAuthorized",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "NotAuthorized",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorizing",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Authorizing",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Resource",
+            "TypeName": "System.Object",
+            "DisplayName": "object Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Resource",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Resource\">\r\n            <summary>\r\n            The resource to which access is being controlled.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Resource",
+              "Common.GloballyQualifiedTypeName": "global::System.Object"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "RouteData",
+            "TypeName": "Microsoft.AspNetCore.Components.RouteData",
+            "DisplayName": "Microsoft.AspNetCore.Components.RouteData Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.RouteData",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.RouteData\">\r\n            <summary>\r\n            Gets or sets the route data. This determines the page that will be\r\n            displayed and the parameter values that will be supplied to the page.\r\n            </summary>\r\n        </member>",
+            "IsEditorRequired": true,
+            "Metadata": {
+              "Common.PropertyName": "RouteData",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RouteData"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DefaultLayout",
+            "TypeName": "System.Type",
+            "DisplayName": "System.Type Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.DefaultLayout",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.DefaultLayout\">\r\n            <summary>\r\n            Gets or sets the type of a layout to be used if the page does not\r\n            declare any layout. If specified, the type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />\r\n            and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "DefaultLayout",
+              "Common.GloballyQualifiedTypeName": "global::System.Type"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Context",
+            "Documentation": {
+              "Id": 12
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
+          "Common.TypeNameIdentifier": "AuthorizeRouteView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 491116659,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NotAuthorized",
+            "ParentTag": "AuthorizeRouteView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized.Context",
+            "Documentation": {
+              "Id": 11,
+              "Args": [
+                "NotAuthorized"
+              ]
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
+          "Common.TypeNameIdentifier": "AuthorizeRouteView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1079143523,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NotAuthorized",
+            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized.Context",
+            "Documentation": {
+              "Id": 11,
+              "Args": [
+                "NotAuthorized"
+              ]
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
+          "Common.TypeNameIdentifier": "AuthorizeRouteView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -215816301,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorizing",
+            "ParentTag": "AuthorizeRouteView"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+          "Common.TypeNameIdentifier": "AuthorizeRouteView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 620654160,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorizing",
+            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
+          "Common.TypeNameIdentifier": "AuthorizeRouteView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 470180380,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\">\r\n            <summary>\r\n            Displays differing content depending on the user's authorization status.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AuthorizeView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Policy",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Policy",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Policy\">\r\n            <summary>\r\n            The policy name that determines whether the content can be displayed.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Policy",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Roles",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Roles",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Roles\">\r\n            <summary>\r\n            A comma delimited list of roles that are allowed to display the content.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Roles",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NotAuthorized",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "NotAuthorized",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorized",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Authorized",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorizing",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Authorizing",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Resource",
+            "TypeName": "System.Object",
+            "DisplayName": "object Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Resource",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Resource\">\r\n            <summary>\r\n            The resource to which access is being controlled.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Resource",
+              "Common.GloballyQualifiedTypeName": "global::System.Object"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Context",
+            "Documentation": {
+              "Id": 12
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
+          "Common.TypeNameIdentifier": "AuthorizeView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1455177946,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\">\r\n            <summary>\r\n            Displays differing content depending on the user's authorization status.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Policy",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Policy",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Policy\">\r\n            <summary>\r\n            The policy name that determines whether the content can be displayed.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Policy",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Roles",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Roles",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Roles\">\r\n            <summary>\r\n            A comma delimited list of roles that are allowed to display the content.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Roles",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NotAuthorized",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "NotAuthorized",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorized",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState> Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Authorized",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.Authorization.AuthenticationState>",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Authorizing",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Authorizing",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Resource",
+            "TypeName": "System.Object",
+            "DisplayName": "object Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Resource",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Resource\">\r\n            <summary>\r\n            The resource to which access is being controlled.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Resource",
+              "Common.GloballyQualifiedTypeName": "global::System.Object"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Context",
+            "Documentation": {
+              "Id": 12
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
+          "Common.TypeNameIdentifier": "AuthorizeView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 506549288,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "AuthorizeView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent.Context",
+            "Documentation": {
+              "Id": 11,
+              "Args": [
+                "ChildContent"
+              ]
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
+          "Common.TypeNameIdentifier": "AuthorizeView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1484073981,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent.Context",
+            "Documentation": {
+              "Id": 11,
+              "Args": [
+                "ChildContent"
+              ]
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
+          "Common.TypeNameIdentifier": "AuthorizeView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1437856405,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NotAuthorized",
+            "ParentTag": "AuthorizeView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized.Context",
+            "Documentation": {
+              "Id": 11,
+              "Args": [
+                "NotAuthorized"
+              ]
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
+          "Common.TypeNameIdentifier": "AuthorizeView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -405177515,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.NotAuthorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is not authorized.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NotAuthorized",
+            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized.Context",
+            "Documentation": {
+              "Id": 11,
+              "Args": [
+                "NotAuthorized"
+              ]
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
+          "Common.TypeNameIdentifier": "AuthorizeView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -439962858,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorized",
+            "ParentTag": "AuthorizeView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized.Context",
+            "Documentation": {
+              "Id": 11,
+              "Args": [
+                "Authorized"
+              ]
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+          "Common.TypeNameIdentifier": "AuthorizeView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 845303612,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorized\">\r\n            <summary>\r\n            The content that will be displayed if the user is authorized.\r\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorized",
+            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "DisplayName": "string Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized.Context",
+            "Documentation": {
+              "Id": 11,
+              "Args": [
+                "Authorized"
+              ]
+            },
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
+          "Common.TypeNameIdentifier": "AuthorizeView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 1162771455,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorizing",
+            "ParentTag": "AuthorizeView"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+          "Common.TypeNameIdentifier": "AuthorizeView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -582604779,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.Authorizing\">\r\n            <summary>\r\n            The content that will be displayed while asynchronous authorization is in progress.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Authorizing",
+            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
+          "Common.TypeNameIdentifier": "AuthorizeView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -672933193,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CascadingAuthenticationState"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent\">\r\n            <summary>\r\n            The content to which the authentication state should be provided.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
+          "Common.TypeNameIdentifier": "CascadingAuthenticationState",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -617587348,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "DisplayName": "Microsoft.AspNetCore.Components.RenderFragment Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent\">\r\n            <summary>\r\n            The content to which the authentication state should be provided.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
+          "Common.TypeNameIdentifier": "CascadingAuthenticationState",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 971520164,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent\">\r\n            <summary>\r\n            The content to which the authentication state should be provided.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "CascadingAuthenticationState"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
+          "Common.TypeNameIdentifier": "CascadingAuthenticationState",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 1694289661,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
+        "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
+        "DisplayName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent\">\r\n            <summary>\r\n            The content to which the authentication state should be provided.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
+          "Common.TypeNameIdentifier": "CascadingAuthenticationState",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Authorization",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 907303471,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2060,7 +2060,7 @@
         }
       },
       {
-        "HashCode": 1110553415,
+        "HashCode": 682996426,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2177,7 +2177,7 @@
         }
       },
       {
-        "HashCode": -1691673757,
+        "HashCode": 1418775981,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2217,7 +2217,7 @@
         }
       },
       {
-        "HashCode": 231624044,
+        "HashCode": -1077360178,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2258,7 +2258,7 @@
         }
       },
       {
-        "HashCode": -2120502109,
+        "HashCode": -1511306188,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2336,7 +2336,7 @@
         }
       },
       {
-        "HashCode": -1756438098,
+        "HashCode": -1301840920,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2415,7 +2415,7 @@
         }
       },
       {
-        "HashCode": 1220654718,
+        "HashCode": -358085118,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2538,7 +2538,7 @@
         }
       },
       {
-        "HashCode": -858960840,
+        "HashCode": 2030707582,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2662,7 +2662,7 @@
         }
       },
       {
-        "HashCode": -1944766938,
+        "HashCode": 14137674,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2707,7 +2707,7 @@
         }
       },
       {
-        "HashCode": 862765564,
+        "HashCode": 1167108040,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2753,7 +2753,7 @@
         }
       },
       {
-        "HashCode": 1892674656,
+        "HashCode": -952947462,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2864,7 +2864,7 @@
         }
       },
       {
-        "HashCode": -2134108504,
+        "HashCode": 1691209211,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2976,7 +2976,7 @@
         }
       },
       {
-        "HashCode": 2077574503,
+        "HashCode": -24443022,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3051,7 +3051,7 @@
         }
       },
       {
-        "HashCode": 1596305867,
+        "HashCode": 1641508952,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3127,7 +3127,7 @@
         }
       },
       {
-        "HashCode": -995973287,
+        "HashCode": 1161529900,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3250,7 +3250,7 @@
         }
       },
       {
-        "HashCode": 1702923990,
+        "HashCode": 1338250417,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3374,7 +3374,7 @@
         }
       },
       {
-        "HashCode": -1671179703,
+        "HashCode": 1801490966,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3396,7 +3396,7 @@
         }
       },
       {
-        "HashCode": -2136170909,
+        "HashCode": 363855519,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3419,7 +3419,7 @@
         }
       },
       {
-        "HashCode": -601784271,
+        "HashCode": 1942642337,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3531,7 +3531,7 @@
         }
       },
       {
-        "HashCode": 1287753654,
+        "HashCode": -863578771,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3644,7 +3644,7 @@
         }
       },
       {
-        "HashCode": 1221640820,
+        "HashCode": -1730637412,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3666,7 +3666,7 @@
         }
       },
       {
-        "HashCode": -1544984920,
+        "HashCode": 1235975888,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3689,7 +3689,7 @@
         }
       },
       {
-        "HashCode": -1402357420,
+        "HashCode": 261570397,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3767,7 +3767,7 @@
         }
       },
       {
-        "HashCode": -346510239,
+        "HashCode": 1550571867,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3846,7 +3846,7 @@
         }
       },
       {
-        "HashCode": 2142063062,
+        "HashCode": 764092965,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3924,7 +3924,7 @@
         }
       },
       {
-        "HashCode": 2014823099,
+        "HashCode": -1707981599,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4003,7 +4003,7 @@
         }
       },
       {
-        "HashCode": 20152407,
+        "HashCode": -735108964,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4067,7 +4067,7 @@
         }
       },
       {
-        "HashCode": 190716648,
+        "HashCode": 1951804514,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4132,7 +4132,7 @@
         }
       },
       {
-        "HashCode": 949303400,
+        "HashCode": 1177478435,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4176,7 +4176,7 @@
         }
       },
       {
-        "HashCode": 2113853889,
+        "HashCode": 1549803897,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4221,7 +4221,7 @@
         }
       },
       {
-        "HashCode": -1353246898,
+        "HashCode": 499152333,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4265,7 +4265,7 @@
         }
       },
       {
-        "HashCode": -1909353258,
+        "HashCode": -1108477516,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4310,7 +4310,7 @@
         }
       },
       {
-        "HashCode": 1532537048,
+        "HashCode": -9993060,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4355,7 +4355,7 @@
         }
       },
       {
-        "HashCode": 1038690443,
+        "HashCode": -1421624367,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4401,7 +4401,7 @@
         }
       },
       {
-        "HashCode": -1043466201,
+        "HashCode": 1411485595,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4469,7 +4469,7 @@
         }
       },
       {
-        "HashCode": 852595049,
+        "HashCode": -1463717251,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4538,7 +4538,7 @@
         }
       },
       {
-        "HashCode": -1639876357,
+        "HashCode": 1937012714,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4560,7 +4560,7 @@
         }
       },
       {
-        "HashCode": 985785234,
+        "HashCode": -19070757,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4583,7 +4583,7 @@
         }
       },
       {
-        "HashCode": -2134638827,
+        "HashCode": -1324827050,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4617,7 +4617,7 @@
         }
       },
       {
-        "HashCode": -1065959598,
+        "HashCode": 1729264713,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4652,7 +4652,7 @@
         }
       },
       {
-        "HashCode": 427063883,
+        "HashCode": 1625627724,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4674,7 +4674,7 @@
         }
       },
       {
-        "HashCode": -1880741104,
+        "HashCode": 342858518,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4697,7 +4697,7 @@
         }
       },
       {
-        "HashCode": 1506580859,
+        "HashCode": 988160239,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4717,7 +4717,7 @@
         }
       },
       {
-        "HashCode": 2050075604,
+        "HashCode": 356715977,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4738,7 +4738,7 @@
         }
       },
       {
-        "HashCode": 871671705,
+        "HashCode": -1229668769,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4772,7 +4772,7 @@
         }
       },
       {
-        "HashCode": 411241049,
+        "HashCode": 1564304123,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4807,7 +4807,7 @@
         }
       },
       {
-        "HashCode": 895044313,
+        "HashCode": -39293410,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4829,7 +4829,7 @@
         }
       },
       {
-        "HashCode": -270434985,
+        "HashCode": 1859535207,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4852,7 +4852,7 @@
         }
       },
       {
-        "HashCode": 167142409,
+        "HashCode": 1260665222,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4922,7 +4922,7 @@
         }
       },
       {
-        "HashCode": 1455310924,
+        "HashCode": 811056056,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4993,7 +4993,7 @@
         }
       },
       {
-        "HashCode": 695253442,
+        "HashCode": 788869030,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5015,7 +5015,7 @@
         }
       },
       {
-        "HashCode": 1765857074,
+        "HashCode": -879531305,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5038,7 +5038,7 @@
         }
       },
       {
-        "HashCode": 1000511044,
+        "HashCode": 1537913099,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5078,7 +5078,7 @@
         }
       },
       {
-        "HashCode": 260099158,
+        "HashCode": -631983955,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5119,7 +5119,7 @@
         }
       },
       {
-        "HashCode": 1890668585,
+        "HashCode": -839855746,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5270,7 +5270,7 @@
         }
       },
       {
-        "HashCode": -1361801512,
+        "HashCode": -126957636,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5422,7 +5422,7 @@
         }
       },
       {
-        "HashCode": 305869682,
+        "HashCode": 1071336401,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5462,7 +5462,7 @@
         }
       },
       {
-        "HashCode": -1871219841,
+        "HashCode": -1667821154,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5503,7 +5503,7 @@
         }
       },
       {
-        "HashCode": 1123903497,
+        "HashCode": 1319548984,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5543,7 +5543,7 @@
         }
       },
       {
-        "HashCode": -972635094,
+        "HashCode": -1900434665,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5584,7 +5584,7 @@
         }
       },
       {
-        "HashCode": -306307431,
+        "HashCode": -719772481,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5624,7 +5624,7 @@
         }
       },
       {
-        "HashCode": -716581375,
+        "HashCode": -1212812060,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5665,7 +5665,7 @@
         }
       },
       {
-        "HashCode": 1218462749,
+        "HashCode": 1749131680,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5779,7 +5779,7 @@
         }
       },
       {
-        "HashCode": -2072886661,
+        "HashCode": -1920729317,
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5893,7 +5893,7 @@
         }
       },
       {
-        "HashCode": -2070648485,
+        "HashCode": -512991975,
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6007,7 +6007,7 @@
         }
       },
       {
-        "HashCode": -188961842,
+        "HashCode": 1533711337,
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6121,7 +6121,7 @@
         }
       },
       {
-        "HashCode": 134634388,
+        "HashCode": 1291052177,
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6235,7 +6235,7 @@
         }
       },
       {
-        "HashCode": 1454425773,
+        "HashCode": 240979946,
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6349,7 +6349,7 @@
         }
       },
       {
-        "HashCode": -1531287673,
+        "HashCode": -692595534,
         "Kind": "Components.EventHandler",
         "Name": "onmouseleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6463,7 +6463,7 @@
         }
       },
       {
-        "HashCode": 1124576149,
+        "HashCode": 421464685,
         "Kind": "Components.EventHandler",
         "Name": "onmouseenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6577,7 +6577,7 @@
         }
       },
       {
-        "HashCode": 866807912,
+        "HashCode": -944171952,
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6691,7 +6691,7 @@
         }
       },
       {
-        "HashCode": -459541396,
+        "HashCode": -258497269,
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6805,7 +6805,7 @@
         }
       },
       {
-        "HashCode": -753122794,
+        "HashCode": 146546189,
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6919,7 +6919,7 @@
         }
       },
       {
-        "HashCode": -439712563,
+        "HashCode": -1717438971,
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7033,7 +7033,7 @@
         }
       },
       {
-        "HashCode": -1610054579,
+        "HashCode": -1183826579,
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7147,7 +7147,7 @@
         }
       },
       {
-        "HashCode": 49230484,
+        "HashCode": 1693826477,
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7261,7 +7261,7 @@
         }
       },
       {
-        "HashCode": -1137741666,
+        "HashCode": 216410559,
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7375,7 +7375,7 @@
         }
       },
       {
-        "HashCode": 1083187505,
+        "HashCode": 656016962,
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7489,7 +7489,7 @@
         }
       },
       {
-        "HashCode": -226141062,
+        "HashCode": 1054317253,
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7603,7 +7603,7 @@
         }
       },
       {
-        "HashCode": 1884106825,
+        "HashCode": -927492135,
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7717,7 +7717,7 @@
         }
       },
       {
-        "HashCode": -1414373619,
+        "HashCode": -237320274,
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7831,7 +7831,7 @@
         }
       },
       {
-        "HashCode": 450770989,
+        "HashCode": 1497782198,
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7945,7 +7945,7 @@
         }
       },
       {
-        "HashCode": -1406282883,
+        "HashCode": 1198432111,
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8059,7 +8059,7 @@
         }
       },
       {
-        "HashCode": 1037386062,
+        "HashCode": 32004120,
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8173,7 +8173,7 @@
         }
       },
       {
-        "HashCode": -934771973,
+        "HashCode": 1655069367,
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8287,7 +8287,7 @@
         }
       },
       {
-        "HashCode": 1776893732,
+        "HashCode": 171688564,
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8401,7 +8401,7 @@
         }
       },
       {
-        "HashCode": 1291541757,
+        "HashCode": -1332405582,
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8515,7 +8515,7 @@
         }
       },
       {
-        "HashCode": -86065935,
+        "HashCode": 462664021,
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8629,7 +8629,7 @@
         }
       },
       {
-        "HashCode": 722453571,
+        "HashCode": 552217841,
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8743,7 +8743,7 @@
         }
       },
       {
-        "HashCode": -554835838,
+        "HashCode": -2102355226,
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8857,7 +8857,7 @@
         }
       },
       {
-        "HashCode": 1705536120,
+        "HashCode": 488937487,
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8971,7 +8971,7 @@
         }
       },
       {
-        "HashCode": -1730869112,
+        "HashCode": -1027120681,
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9085,7 +9085,7 @@
         }
       },
       {
-        "HashCode": -1883470193,
+        "HashCode": 1955525725,
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9199,7 +9199,7 @@
         }
       },
       {
-        "HashCode": -1251192459,
+        "HashCode": -2097477409,
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9313,7 +9313,7 @@
         }
       },
       {
-        "HashCode": -40071703,
+        "HashCode": 801308306,
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9427,7 +9427,7 @@
         }
       },
       {
-        "HashCode": -1356046943,
+        "HashCode": -142536103,
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9541,7 +9541,7 @@
         }
       },
       {
-        "HashCode": 922125121,
+        "HashCode": -1475281377,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9655,7 +9655,7 @@
         }
       },
       {
-        "HashCode": 964234168,
+        "HashCode": -587500173,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9769,7 +9769,7 @@
         }
       },
       {
-        "HashCode": 1148020496,
+        "HashCode": -184380769,
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9883,7 +9883,7 @@
         }
       },
       {
-        "HashCode": 1945172228,
+        "HashCode": -964236370,
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9997,7 +9997,7 @@
         }
       },
       {
-        "HashCode": -642472842,
+        "HashCode": 1748228288,
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10111,7 +10111,7 @@
         }
       },
       {
-        "HashCode": 747258890,
+        "HashCode": -500611829,
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10225,7 +10225,7 @@
         }
       },
       {
-        "HashCode": -1192706348,
+        "HashCode": 1794449131,
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10339,7 +10339,7 @@
         }
       },
       {
-        "HashCode": -2081943716,
+        "HashCode": -1529697831,
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10453,7 +10453,7 @@
         }
       },
       {
-        "HashCode": -1142582600,
+        "HashCode": -1127956208,
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10567,7 +10567,7 @@
         }
       },
       {
-        "HashCode": -309270632,
+        "HashCode": -735016100,
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10681,7 +10681,7 @@
         }
       },
       {
-        "HashCode": -439612808,
+        "HashCode": -777990208,
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10795,7 +10795,7 @@
         }
       },
       {
-        "HashCode": -1973338160,
+        "HashCode": -653864154,
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10909,7 +10909,7 @@
         }
       },
       {
-        "HashCode": 1823059314,
+        "HashCode": -512200490,
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11023,7 +11023,7 @@
         }
       },
       {
-        "HashCode": 517252671,
+        "HashCode": 184232393,
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11137,7 +11137,7 @@
         }
       },
       {
-        "HashCode": -637191413,
+        "HashCode": 770305325,
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11251,7 +11251,7 @@
         }
       },
       {
-        "HashCode": 1065881053,
+        "HashCode": -74508458,
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11365,7 +11365,7 @@
         }
       },
       {
-        "HashCode": 1426842698,
+        "HashCode": -390716548,
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11479,7 +11479,7 @@
         }
       },
       {
-        "HashCode": -812802040,
+        "HashCode": -2099236233,
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11593,7 +11593,7 @@
         }
       },
       {
-        "HashCode": 350292290,
+        "HashCode": 322127781,
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11707,7 +11707,7 @@
         }
       },
       {
-        "HashCode": 761630957,
+        "HashCode": 368677621,
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11821,7 +11821,7 @@
         }
       },
       {
-        "HashCode": 463294657,
+        "HashCode": -1411224389,
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11935,7 +11935,7 @@
         }
       },
       {
-        "HashCode": -209448657,
+        "HashCode": 165534648,
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12049,7 +12049,7 @@
         }
       },
       {
-        "HashCode": -1065783634,
+        "HashCode": -1884581466,
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12163,7 +12163,7 @@
         }
       },
       {
-        "HashCode": -745019401,
+        "HashCode": -353913676,
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12277,7 +12277,7 @@
         }
       },
       {
-        "HashCode": 1628566497,
+        "HashCode": 437735705,
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12391,7 +12391,7 @@
         }
       },
       {
-        "HashCode": 1027750413,
+        "HashCode": 566498365,
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12505,7 +12505,7 @@
         }
       },
       {
-        "HashCode": 112915186,
+        "HashCode": -1514503186,
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12619,7 +12619,7 @@
         }
       },
       {
-        "HashCode": 1677586837,
+        "HashCode": -1316486492,
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12733,7 +12733,7 @@
         }
       },
       {
-        "HashCode": -2056360646,
+        "HashCode": 1606018566,
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12847,7 +12847,7 @@
         }
       },
       {
-        "HashCode": -792044924,
+        "HashCode": -979690939,
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12961,7 +12961,7 @@
         }
       },
       {
-        "HashCode": -286850491,
+        "HashCode": 963696234,
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13075,7 +13075,7 @@
         }
       },
       {
-        "HashCode": 638119978,
+        "HashCode": 1646338304,
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13189,7 +13189,7 @@
         }
       },
       {
-        "HashCode": -879567813,
+        "HashCode": 693241824,
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13303,7 +13303,7 @@
         }
       },
       {
-        "HashCode": -107563267,
+        "HashCode": 741008643,
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13417,7 +13417,7 @@
         }
       },
       {
-        "HashCode": -1981589571,
+        "HashCode": 2112556024,
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13531,7 +13531,7 @@
         }
       },
       {
-        "HashCode": 632849369,
+        "HashCode": 1637803051,
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13645,7 +13645,7 @@
         }
       },
       {
-        "HashCode": 703833216,
+        "HashCode": 1557542799,
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13759,7 +13759,7 @@
         }
       },
       {
-        "HashCode": -529360769,
+        "HashCode": -1057632345,
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13873,7 +13873,7 @@
         }
       },
       {
-        "HashCode": -168621079,
+        "HashCode": -2100662245,
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13987,7 +13987,7 @@
         }
       },
       {
-        "HashCode": 419460171,
+        "HashCode": 640451921,
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14101,7 +14101,7 @@
         }
       },
       {
-        "HashCode": -1633210495,
+        "HashCode": -1659239860,
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14215,7 +14215,7 @@
         }
       },
       {
-        "HashCode": 52847787,
+        "HashCode": 238318632,
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14329,7 +14329,7 @@
         }
       },
       {
-        "HashCode": -1140404354,
+        "HashCode": 1835546106,
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14443,7 +14443,7 @@
         }
       },
       {
-        "HashCode": -1585624086,
+        "HashCode": 1544074251,
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14557,7 +14557,7 @@
         }
       },
       {
-        "HashCode": 766269427,
+        "HashCode": -410484276,
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14671,7 +14671,7 @@
         }
       },
       {
-        "HashCode": -557392821,
+        "HashCode": 1393404643,
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14785,7 +14785,7 @@
         }
       },
       {
-        "HashCode": -745671959,
+        "HashCode": 1182247678,
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14899,7 +14899,7 @@
         }
       },
       {
-        "HashCode": -800251443,
+        "HashCode": -1706502517,
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15013,7 +15013,7 @@
         }
       },
       {
-        "HashCode": -449516541,
+        "HashCode": -2139713517,
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15127,7 +15127,7 @@
         }
       },
       {
-        "HashCode": 2079634017,
+        "HashCode": -177240530,
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15241,7 +15241,7 @@
         }
       },
       {
-        "HashCode": 703308382,
+        "HashCode": -715405658,
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15355,7 +15355,7 @@
         }
       },
       {
-        "HashCode": -543340492,
+        "HashCode": 1618241485,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15469,7 +15469,7 @@
         }
       },
       {
-        "HashCode": -128046309,
+        "HashCode": -1347739881,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15583,7 +15583,7 @@
         }
       },
       {
-        "HashCode": -849091554,
+        "HashCode": 1377482915,
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15697,7 +15697,7 @@
         }
       },
       {
-        "HashCode": 188148976,
+        "HashCode": -471579464,
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15811,7 +15811,7 @@
         }
       },
       {
-        "HashCode": 1096478110,
+        "HashCode": 1635249671,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15925,7 +15925,7 @@
         }
       },
       {
-        "HashCode": -1258645520,
+        "HashCode": 1889378915,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16039,7 +16039,7 @@
         }
       },
       {
-        "HashCode": 2005919500,
+        "HashCode": 556341765,
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16153,7 +16153,7 @@
         }
       },
       {
-        "HashCode": -685071766,
+        "HashCode": -1574535233,
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16267,7 +16267,7 @@
         }
       },
       {
-        "HashCode": 2095646635,
+        "HashCode": 370105347,
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16381,7 +16381,7 @@
         }
       },
       {
-        "HashCode": 1120537099,
+        "HashCode": 1606720689,
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16427,7 +16427,7 @@
         }
       },
       {
-        "HashCode": -2125751605,
+        "HashCode": 2036334351,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16681,7 +16681,7 @@
         }
       },
       {
-        "HashCode": 1525575939,
+        "HashCode": -1658392661,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16836,7 +16836,7 @@
         }
       },
       {
-        "HashCode": -1206107310,
+        "HashCode": -1898482572,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16904,7 +16904,7 @@
         }
       },
       {
-        "HashCode": 208772018,
+        "HashCode": -1289603869,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -17066,7 +17066,7 @@
         }
       },
       {
-        "HashCode": 285475039,
+        "HashCode": -1184507455,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -17122,7 +17122,7 @@
         }
       },
       {
-        "HashCode": 687585408,
+        "HashCode": -1605854902,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -17676,7 +17676,7 @@
         }
       },
       {
-        "HashCode": 1508918418,
+        "HashCode": 84280492,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -17801,7 +17801,7 @@
         }
       },
       {
-        "HashCode": 1925173348,
+        "HashCode": 1017897695,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -17859,7 +17859,7 @@
         }
       },
       {
-        "HashCode": -862535741,
+        "HashCode": -1783912616,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -17945,7 +17945,7 @@
         }
       },
       {
-        "HashCode": 387619485,
+        "HashCode": 1767475352,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -17986,7 +17986,7 @@
         }
       },
       {
-        "HashCode": -373427283,
+        "HashCode": 2090654403,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -18234,7 +18234,7 @@
         }
       },
       {
-        "HashCode": -1347595230,
+        "HashCode": 1772502834,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -18268,7 +18268,7 @@
         }
       },
       {
-        "HashCode": -360386133,
+        "HashCode": 460692571,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -18368,7 +18368,7 @@
         }
       },
       {
-        "HashCode": 212705006,
+        "HashCode": -1278534749,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PersistComponentStateTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -18403,7 +18403,7 @@
         }
       },
       {
-        "HashCode": 1287601300,
+        "HashCode": 1970672738,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -18598,7 +18598,7 @@
         }
       },
       {
-        "HashCode": 1619117347,
+        "HashCode": 1552688312,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -18672,7 +18672,7 @@
         }
       },
       {
-        "HashCode": 1346282377,
+        "HashCode": 1133522681,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -18724,7 +18724,7 @@
         }
       },
       {
-        "HashCode": 270709625,
+        "HashCode": 1242504794,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -18765,7 +18765,7 @@
         }
       },
       {
-        "HashCode": 36953842,
+        "HashCode": -1618693579,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -18807,7 +18807,7 @@
         }
       },
       {
-        "HashCode": 1441179666,
+        "HashCode": 545363359,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
@@ -19212,7 +19212,7 @@
         }
       },
       {
-        "HashCode": 2033373560,
+        "HashCode": -230131066,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -19343,7 +19343,7 @@
         }
       },
       {
-        "HashCode": -892004645,
+        "HashCode": 966665496,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -19518,7 +19518,7 @@
         }
       },
       {
-        "HashCode": 1863532320,
+        "HashCode": 254498264,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -19693,7 +19693,7 @@
         }
       },
       {
-        "HashCode": -330073075,
+        "HashCode": -764943341,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -19881,7 +19881,7 @@
         }
       },
       {
-        "HashCode": 318816564,
+        "HashCode": -2091602146,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -20069,7 +20069,7 @@
         }
       },
       {
-        "HashCode": 413301596,
+        "HashCode": 381075096,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -20257,7 +20257,7 @@
         }
       },
       {
-        "HashCode": 1635664815,
+        "HashCode": 1173859158,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -20445,7 +20445,7 @@
         }
       },
       {
-        "HashCode": 1731399130,
+        "HashCode": 1752029369,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -20633,7 +20633,7 @@
         }
       },
       {
-        "HashCode": 1889806924,
+        "HashCode": 1853206896,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -20821,7 +20821,7 @@
         }
       },
       {
-        "HashCode": 1944740364,
+        "HashCode": 1400174995,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -21009,7 +21009,7 @@
         }
       },
       {
-        "HashCode": 1611884113,
+        "HashCode": -1151112358,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -21197,7 +21197,7 @@
         }
       },
       {
-        "HashCode": -696809555,
+        "HashCode": -1267815069,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -21385,7 +21385,7 @@
         }
       },
       {
-        "HashCode": -614946067,
+        "HashCode": -838084209,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -21573,7 +21573,7 @@
         }
       },
       {
-        "HashCode": -1282811846,
+        "HashCode": -2033646823,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -21761,7 +21761,7 @@
         }
       },
       {
-        "HashCode": -192188654,
+        "HashCode": 981510497,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -21949,7 +21949,7 @@
         }
       },
       {
-        "HashCode": -960301791,
+        "HashCode": 1228789116,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -22124,7 +22124,7 @@
         }
       },
       {
-        "HashCode": -1007317043,
+        "HashCode": 1830016514,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -22299,7 +22299,7 @@
         }
       },
       {
-        "HashCode": -1954799062,
+        "HashCode": -255463598,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -22415,7 +22415,7 @@
         }
       },
       {
-        "HashCode": -1393655971,
+        "HashCode": 1375750390,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -22532,7 +22532,7 @@
         }
       },
       {
-        "HashCode": -2082384651,
+        "HashCode": 792763241,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -22648,7 +22648,7 @@
         }
       },
       {
-        "HashCode": -1680150718,
+        "HashCode": 1683122690,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -22765,7 +22765,7 @@
         }
       },
       {
-        "HashCode": 638716543,
+        "HashCode": 1276050930,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -22881,7 +22881,7 @@
         }
       },
       {
-        "HashCode": 1368516514,
+        "HashCode": -1856129176,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -22998,7 +22998,7 @@
         }
       },
       {
-        "HashCode": -1561986685,
+        "HashCode": 1400819018,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -23114,7 +23114,7 @@
         }
       },
       {
-        "HashCode": 2094182807,
+        "HashCode": -1038587774,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -23231,7 +23231,7 @@
         }
       },
       {
-        "HashCode": -366905326,
+        "HashCode": -622595888,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -23347,7 +23347,7 @@
         }
       },
       {
-        "HashCode": -226854962,
+        "HashCode": 582904707,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -23464,7 +23464,7 @@
         }
       },
       {
-        "HashCode": 369529432,
+        "HashCode": 900417100,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -23580,7 +23580,7 @@
         }
       },
       {
-        "HashCode": 2065203997,
+        "HashCode": 276413379,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -23697,7 +23697,7 @@
         }
       },
       {
-        "HashCode": 387735250,
+        "HashCode": 37188913,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -23813,7 +23813,7 @@
         }
       },
       {
-        "HashCode": 1466703904,
+        "HashCode": -987508910,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -23930,7 +23930,7 @@
         }
       },
       {
-        "HashCode": 1569872013,
+        "HashCode": -1881778559,
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -23976,7 +23976,7 @@
         }
       },
       {
-        "HashCode": 1065923446,
+        "HashCode": -435275478,
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -24027,53 +24027,58 @@
   "RootNamespace": "TSUBAKI",
   "Documents": [
     {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Account\\SignUp.cshtml",
-      "TargetPath": "Views\\Account\\SignUp.cshtml",
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\Booking\\ViewAppoint.cshtml",
+      "TargetPath": "Views\\Booking\\ViewAppoint.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\Account\\SignUp.cshtml",
+      "TargetPath": "Views\\Account\\SignUp.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Booking\\Booking.cshtml",
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\Booking\\Booking.cshtml",
       "TargetPath": "Views\\Booking\\Booking.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Booking\\ViewAppoint.cshtml",
-      "TargetPath": "Views\\Booking\\ViewAppoint.cshtml",
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\Views\\Booking\\_bookingdraft.cshtml",
+      "TargetPath": "Views\\Booking\\_bookingdraft.cshtml",
       "FileKind": "mvc"
     }
   ]
