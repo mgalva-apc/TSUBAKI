@@ -11,20 +11,19 @@ namespace TSUBAKI.Models.ViewModel
         [Display(Name = "Login Name")]
         public string LoginName {get; set;}
 
-        [Required(ErrorMessage = "*")]
-        [Display(Name = "Month")]
         public string Month {get; set;}
 
-        [Required(ErrorMessage = "*")]
-        [Display(Name = "Day")]
         public string Day {get; set;}
 
-        [Required(ErrorMessage = "*")]
-        [Display(Name = "TimeSlot")]
         public string TimeSlot {get; set;}
 
         [Required(ErrorMessage = "*")]
         [Display(Name = "Created By")]
         public int CreatedBy {get; set;}
+    }
+
+        public class BooksModel
+    {
+        public List<BookModel> Appointments { get; set; }
     }
 }

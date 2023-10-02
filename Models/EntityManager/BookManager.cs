@@ -26,14 +26,52 @@ namespace TSUBAKI.Models.EntityManager
                 db.SaveChanges();
             }
         }
-        public List<Schedule> GetAllAppointments()
+
+        public void UpdateSchedule(BookModel appointment)
         {
-            List<Schedule> appointment = new List<Schedule>();
+            using (MyDBContext db = new MyDBContext())
+            {
+                // Check if a user with the given login name already exists
+                Schedule existingSchedule = db.Schedule.FirstOrDefault(a => a.Month == appointment.Month && a.Day == appointment.Day && a.TimeSlot == appointment.TimeSlot);
+
+                if (existingSchedule != null)
+                {
+                    // Update the existing user
+                    existingSchedule.ModifiedBy = 1; // This has to be updated
+                    existingSchedule.ModifiedDateTime = DateTime.Now;
+
+
+                    // You can also update other properties of the user as needed
+                    existingSchedule.Month = appointment.Month;
+                    existingSchedule.Day = appointment.Day;
+                    existingSchedule.TimeSlot = appointment.TimeSlot;
+
+                    db.SaveChanges();
+                }
+                else
+                {
+                    Console.WriteLine("Please create a new schedule.");
+                }
+            }
+        }
+        public BooksModel GetAllAppointment()
+        {
+            BooksModel list = new BooksModel();
 
             using (MyDBContext db = new MyDBContext())
             {
-                return appointment = db.Schedule.ToList();
-            }   
+
+                list.Appointments = db.Schedule.Select(records => new BookModel()
+                {
+                    LoginName = records.LoginName,
+                    Month = records.Month,
+                    Day = records.Day,
+                    TimeSlot = records.TimeSlot,  
+                    CreatedBy = records.CreatedBy
+                }).ToList();
+            }
+
+            return list;
         }
         public bool IsScheduleExist(string Month, string Day, string TimeSlot)
         {
