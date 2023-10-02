@@ -13,7 +13,7 @@ namespace TSUBAKI.Controllers
         }
 
         [HttpPost]
-        public ActionResult Schedule(BookModel appointment)
+        public ActionResult Booking(BookModel appointment)
         {
             if(ModelState.IsValid)
             {
@@ -26,14 +26,14 @@ namespace TSUBAKI.Controllers
                 else
                     ModelState.AddModelError("", "Appointment schedule already taken.");
             }
-            return View ("Booking", appointment);
+            return View ();
         }
             
         [HttpGet]
         public ActionResult GetAllAppointments()
         {
             var appointment = new BookManager().GetAllAppointments();
-            return View(appointment);
+            return View();
         }
     }
 }

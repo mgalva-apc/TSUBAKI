@@ -88,16 +88,13 @@ namespace TSUBAKI.Models.DB
                 .IsUnicode(false);
 
                 entity.Property(e => e.Month)
-                .HasColumnName("Month")
-                .HasColumnType("varchar(20)");
+                .HasColumnName("Month");
 
                 entity.Property(e => e.Day)
-                .HasColumnName("Day")
-                .HasColumnType("varchar(2)");
+                .HasColumnName("Day");
 
                 entity.Property(e => e.TimeSlot)
-                .HasColumnName("TimeSlot")
-                .HasColumnType("varchar(20)");
+                .HasColumnName("TimeSlot");
 
                 entity.Property(e => e.CreatedBy)
                 .HasColumnName("RowCreatedScheduleID")

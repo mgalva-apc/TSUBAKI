@@ -24067,13 +24067,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Booking\\ViewAppoint.cshtml",
-      "TargetPath": "Views\\Booking\\ViewAppoint.cshtml",
+      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Book\\Booking.cshtml",
+      "TargetPath": "Views\\Book\\Booking.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Booking\\Booking.cshtml",
-      "TargetPath": "Views\\Booking\\Booking.cshtml",
+      "FilePath": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\Views\\Book\\ViewAppoint.cshtml",
+      "TargetPath": "Views\\Book\\ViewAppoint.cshtml",
       "FileKind": "mvc"
     }
   ]
