@@ -1,3 +1,156 @@
-<body>
-    <p>placeholder</p>
-</body>
+@model TSUBAKI.Models.ViewModel.BookModel
+@{
+    ViewBag.Title = "ViewAppoint";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Booking Appointments List</h1>
+<div>
+    <span class="alert-success">@ViewBag.Message</span>
+    <table class="table table-striped table-condensed table-hover">
+        <thead>
+            <tr>
+                <th>Schedule ID</th>
+                <th>Login Name</th>
+                <th>Month</th>
+                <th>Day</th>
+                <th>Time Slot</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model.Users)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(m => i.ScheduleID)</td>
+                    <td>@Html.DisplayFor(m => i.LoginName)</td>
+                    <td>@Html.DisplayFor(m => i.Month)</td>
+                    <td>@Html.DisplayFor(m => i.Day)</td>
+		    <td>@Html.DisplayFor(m => i.TimeSlot)</td>
+                    <td><a href="#" class="lnkEdit" data-scheduleid="@i.ScheduleID" data-login="@i.LoginName" data-month="@i.Month" data-day="@i.Day" data-timeslot="@i.TimeSlot">Edit</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<!-- The Modal -->
+<div class="modal fade edit-modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Edit Appointment Schedule</h4>
+                <button type="button" class="close close-modal" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <input type="hidden" id="editSchedId" />
+                    <div class="form-group">
+                        <label for="editLoginName">Login Name:</label>
+                        <input type="text" class="form-control" id="editLoginName" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="editMonth">Month:</label>
+                        <input type="text" class="form-control" id="editFirstName">
+                    </div>
+                    <div class="form-group">
+                        <label for="editDay">Day:</label>
+                        <input type="text" class="form-control" id="editLastName">
+                    </div>
+                    <div class="form-group">
+                        <label for="editTimeSlot">Time Slot:</label>
+                        <input type="text" class="form-control" id="editGender">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="saveChanges">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add JQuery links -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var editModal = $(".edit-modal");
+        var editSchedId = $("#editSchedId");
+        var editLoginName = $("#editLoginName");
+        var editMonth = $("#editMonth");
+        var editDay = $("#editDay");
+        var editTimeSlot = $("#editTimeSlot");
+
+        // Click event for "Edit" links
+        $(".lnkEdit").click(function () {
+            var scheduleId = $(this).data("scheduleid");
+            var loginName = $(this).data("login");
+            var schedmonth = $(this).data("month");
+            var schedday = $(this).data("day");
+            var schedtime = $(this).data("timeslot");
+
+            // Populate the modal with user data
+            editSchedId.val(scheduleId);
+            editLoginName.val(loginName);
+            editMonth.val(schedmonth);
+            editDay.val(schedday);
+            editTimeSlot.val(schedtime);
+
+            // Show the modal
+            editModal.modal("show");
+        });
+
+        // Click event for "Save Changes" button
+        $("#saveChanges").click(function () {
+
+            // Create a JavaScript object with the updated user data
+            var userData = {
+                LoginName: editLoginName.val(),
+                Month: editMonth.val(),
+                Day: editDay.val(),
+                TimeSlot: editTimeSlot.val()
+            };
+
+            // Perform your update logic here (e.g., call an API or submit a form)
+            // Make an AJAX request to your API endpoint to update user information
+            $.ajax({
+                type: "PUT", // Use the appropriate HTTP method (PUT, POST, etc.) for your API
+                url: "/account/update", // Replace with your API endpoint URL (BEA NOTE: IDK WHAT TO CHANGE HERE)
+                data: JSON.stringify(userData),
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    // Handle the API response as needed
+                    console.log("Schedule updated successfully");
+                    window.location.reload();
+                },
+                error: function (error) {
+                    // Handle API error
+                    console.error("Error updating schedule:", error);
+                    window.location.reload();
+                }
+            });
+
+            // Close the modal
+            editModal.modal("hide");
+        });
+
+        // Click event for "Close" button
+        $(".close-modal").click(function () {
+            editModal.modal("hide");
+        });
+    });
+
+    // Function to reload the user list
+    function reloadUserList() {
+        $.ajax({
+            type: "GET", // Use the appropriate HTTP method for fetching the user list
+            url: "/account/users", // Replace with your API endpoint URL to fetch the user list
+            success: function (data) {
+                // Replace the user list container with the updated user list HTML
+                userListContainer.html(data);
+            },
+            error: function (error) {
+                console.error("Error fetching user list:", error);
+            }
+        });
+    }
+</script>
