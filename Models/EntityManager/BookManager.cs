@@ -26,14 +26,33 @@ namespace TSUBAKI.Models.EntityManager
                 db.SaveChanges();
             }
         }
-        public List<Schedule> GetAllAppointments()
-        {
-            List<Schedule> appointment = new List<Schedule>();
 
+        public void UpdateSchedule(BookModel appointment)
+        {
             using (MyDBContext db = new MyDBContext())
             {
-                return appointment = db.Schedule.ToList();
-            }   
+                // Check if a user with the given login name already exists
+                Schedule existingSchedule = db.Schedule.FirstOrDefault(a => a.Month == appointment.Month && a.Day == appointment.Day && a.TimeSlot == appointment.TimeSlot);
+
+                if (existingSchedule != null)
+                {
+                    // Update the existing user
+                    existingSchedule.ModifiedBy = 1; // This has to be updated
+                    existingSchedule.ModifiedDateTime = DateTime.Now;
+
+
+                    // You can also update other properties of the user as needed
+                    existingSchedule.Month = appointment.Month;
+                    existingSchedule.Day = appointment.Day;
+                    existingSchedule.TimeSlot = appointment.TimeSlot;
+
+                    db.SaveChanges();
+                }
+                else
+                {
+                    Console.WriteLine("Please create a new schedule.");
+                }
+            }
         }
         public BooksModel GetAllAppointment()
         {
