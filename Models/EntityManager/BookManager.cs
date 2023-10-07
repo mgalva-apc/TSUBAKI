@@ -32,7 +32,7 @@ namespace TSUBAKI.Models.EntityManager
             using (MyDBContext db = new MyDBContext())
             {
                 // Check if a schedule with the given month, day and timeslot already exists
-                Schedule existingSchedule = db.Schedule.FirstOrDefault(a => a.Month == appointment.Month && a.Day == appointment.Day && a.TimeSlot == appointment.TimeSlot);
+                Schedule existingSchedule = db.Schedule.FirstOrDefault(a => a.ScheduleID == appointment.ScheduleID);
 
                 if (existingSchedule != null)
                 {
@@ -72,6 +72,7 @@ namespace TSUBAKI.Models.EntityManager
             {
                 list.Appointments = db.Schedule.Select(records => new BookModel()
                 {
+                    ScheduleID = records.ScheduleID,
                     LoginName = records.LoginName,
                     Month = records.Month,
                     Day = records.Day,
@@ -85,7 +86,7 @@ namespace TSUBAKI.Models.EntityManager
         {
             using (MyDBContext db = new MyDBContext())
             {
-                return db.Schedule.Where(a => a.Month.Equals(Month) && a.Day.Equals(Day) && a.TimeSlot.Equals(TimeSlot)).Any();
+                return db.Schedule.Any(a => a.Month.Equals(Month) && a.Day.Equals(Day) && a.TimeSlot.Equals(TimeSlot));
             }
         }
     }

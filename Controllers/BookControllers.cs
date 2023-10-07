@@ -41,7 +41,7 @@ namespace TSUBAKI.Controllers
         public async Task<ActionResult> Update([FromBody] BookModel schedData)
         {
             BookManager bm = new BookManager();
-            if (bm.IsScheduleExist(schedData.Month, schedData.Day, schedData.TimeSlot))
+            if (!bm.IsScheduleExist(schedData.Month, schedData.Day, schedData.TimeSlot))
             {
                 bm.UpdateSchedule(schedData);
                 return RedirectToAction("Index"); // Redirect to a relevant action after successful update.
