@@ -14,7 +14,7 @@ div#general-container{
 }
 
 .account-ask{
-    background-color:azure;
+    background-color:azure; /* !important = force */
     width: 38vw;
     height: 54vh;
     margin: 1vw;
