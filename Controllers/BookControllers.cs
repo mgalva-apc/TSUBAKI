@@ -35,14 +35,7 @@ namespace TSUBAKI.Controllers
                     ModelState.AddModelError("", "Appointment schedule already taken.");
             }
             return View ();
-        }
-            
-        [HttpGet]
-        public ActionResult GetAppointments()
-        {
-            var appointment = new BookManager().GetAllAppointment();
-            return View();
-        }
+        }           
 
         [HttpPut]
         public async Task<ActionResult> Update([FromBody] BookModel schedData)

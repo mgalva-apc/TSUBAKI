@@ -12,7 +12,6 @@ namespace TSUBAKI.Models.DB
         : base(options)
         {
         }
-
         public virtual DbSet<Users> Users {get; set;}
         public virtual DbSet<Schedule> Schedule {get; set;}
 
