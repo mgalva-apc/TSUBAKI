@@ -31,17 +31,16 @@ namespace TSUBAKI.Models.EntityManager
         {
             using (MyDBContext db = new MyDBContext())
             {
-                // Check if a user with the given login name already exists
-                Schedule existingSchedule = db.Schedule.FirstOrDefault(a => a.Month == appointment.Month && a.Day == appointment.Day && a.TimeSlot == appointment.TimeSlot);
+                // Check if a schedule with the given month, day and timeslot already exists
+                Schedule existingSchedule = db.Schedule.FirstOrDefault(a => a.ScheduleID == appointment.ScheduleID);
 
                 if (existingSchedule != null)
                 {
-                    // Update the existing user
+                    // Update the existing schedule
                     existingSchedule.ModifiedBy = 1; // This has to be updated
                     existingSchedule.ModifiedDateTime = DateTime.Now;
 
-
-                    // You can also update other properties of the user as needed
+                    // You can also update other properties of the schedule as needed
                     existingSchedule.Month = appointment.Month;
                     existingSchedule.Day = appointment.Day;
                     existingSchedule.TimeSlot = appointment.TimeSlot;
@@ -50,19 +49,30 @@ namespace TSUBAKI.Models.EntityManager
                 }
                 else
                 {
-                    Console.WriteLine("Please create a new schedule.");
+                    Schedule newSched = new Schedule
+                    {
+                        LoginName = appointment.LoginName,
+                        Month = appointment.Month,
+                        Day = appointment.Day,
+                        TimeSlot = appointment.TimeSlot,
+                        CreatedBy = 1,
+                        CreatedDateTime = DateTime.Now,
+                        ModifiedBy = 1,
+                        ModifiedDateTime = DateTime.Now
+                    };
+                    db.Schedule.Add(newSched);
+                    db.SaveChanges();
                 }
             }
         }
         public BooksModel GetAllAppointment()
         {
             BooksModel list = new BooksModel();
-
             using (MyDBContext db = new MyDBContext())
             {
-
                 list.Appointments = db.Schedule.Select(records => new BookModel()
                 {
+                    ScheduleID = records.ScheduleID,
                     LoginName = records.LoginName,
                     Month = records.Month,
                     Day = records.Day,
@@ -70,14 +80,13 @@ namespace TSUBAKI.Models.EntityManager
                     CreatedBy = records.CreatedBy
                 }).ToList();
             }
-
             return list;
         }
         public bool IsScheduleExist(string Month, string Day, string TimeSlot)
         {
             using (MyDBContext db = new MyDBContext())
             {
-                return db.Schedule.Where(a => a.Month.Equals(Month) && a.Day.Equals(Day) && a.TimeSlot.Equals(TimeSlot)).Any();
+                return db.Schedule.Any(a => a.Month.Equals(Month) && a.Day.Equals(Day) && a.TimeSlot.Equals(TimeSlot));
             }
         }
     }
