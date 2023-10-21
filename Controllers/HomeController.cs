@@ -23,6 +23,11 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult AboutUs()
+    {
+        return View();
+    }
+
     public IActionResult SignUp()
     {
         return View();
