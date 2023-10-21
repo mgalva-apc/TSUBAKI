@@ -12,21 +12,21 @@ namespace TSUBAKI.Models.DB
         : base(options)
         {
         }
-
         public virtual DbSet<Users> Users {get; set;}
+        public virtual DbSet<Schedule> Schedule {get; set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if(!optionsBuilder.IsConfigured)
             {
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\TSUBAKIDB; Initial Catalog=DemoDB; Integrated Security=True; Multiple Active Result Sets=True");
+            optionsBuilder.UseSqlServer("Data Source=(localdb)\\AYAKADB; Initial Catalog=AYAKADB; Integrated Security=True; Multiple Active Result Sets=True");
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Users>(entity=>
             {
-                entity.ToTable("SYSUserProfile");
+                entity.ToTable("SYSUser");
 
                 entity.Property(e => e.UserID)
                 .HasColumnName("SYSUserID")
@@ -36,7 +36,12 @@ namespace TSUBAKI.Models.DB
                 .HasColumnName("LoginName")
                 .HasMaxLength(50)
                 .IsUnicode(false);
-                
+
+                entity.Property(e => e.PasswordEncryptedText)
+                .HasColumnName("PasswordEncryptedText")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
                 entity.Property(e => e.FirstName)
                 .HasColumnName("FirstName")
                 .HasMaxLength(50)
@@ -61,6 +66,45 @@ namespace TSUBAKI.Models.DB
 
                 entity.Property(e => e.ModifiedBy)
                 .HasColumnName("RowModifiedSYSUserID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.ModifiedDateTime)
+                .HasColumnName("RowModifiedDateTime")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            });
+
+            modelBuilder.Entity<Schedule>(entity=>
+            {
+                entity.ToTable("Schedule");
+
+                entity.Property(e => e.ScheduleID)
+                .HasColumnName("ScheduleID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.LoginName)
+                .HasColumnName("LoginName")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.Month)
+                .HasColumnName("Month");
+
+                entity.Property(e => e.Day)
+                .HasColumnName("Day");
+
+                entity.Property(e => e.TimeSlot)
+                .HasColumnName("TimeSlot");
+
+                entity.Property(e => e.CreatedBy)
+                .HasColumnName("RowCreatedScheduleID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.CreatedDateTime)
+                .HasColumnName("RowCreatedDateTime")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.ModifiedBy)
+                .HasColumnName("RowModifiedScheduleID")
                 .HasColumnType("int");
 
                 entity.Property(e => e.ModifiedDateTime)

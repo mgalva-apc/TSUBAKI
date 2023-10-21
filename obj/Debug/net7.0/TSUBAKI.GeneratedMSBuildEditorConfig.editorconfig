@@ -9,53 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TSUBAKI
 build_property.RootNamespace = TSUBAKI
-build_property.ProjectDir = D:\f i l e s\codes\school codes\TSUBAKI\
+build_property.ProjectDir = d:\f i l e s\codes\school codes\TSUBAKI\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\f i l e s\codes\school codes\TSUBAKI
+build_property.MSBuildProjectDirectory = d:\f i l e s\codes\school codes\TSUBAKI
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Account/SignUp.cshtml]
+[d:/f i l e s/codes/school codes/TSUBAKI/Views/Account/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Booking/Booking.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nLmNzaHRtbA==
+[d:/f i l e s/codes/school codes/TSUBAKI/Views/Book/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Booking/ViewAppoint.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xWaWV3QXBwb2ludC5jc2h0bWw=
+[d:/f i l e s/codes/school codes/TSUBAKI/Views/Book/ViewAppoint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xWaWV3QXBwb2ludC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Booking/_bookingdraft.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xfYm9va2luZ2RyYWZ0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Home/Index.cshtml]
+[d:/f i l e s/codes/school codes/TSUBAKI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Home/Privacy.cshtml]
+[d:/f i l e s/codes/school codes/TSUBAKI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Shared/Error.cshtml]
+[d:/f i l e s/codes/school codes/TSUBAKI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/f i l e s/codes/school codes/TSUBAKI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/_ViewImports.cshtml]
+[d:/f i l e s/codes/school codes/TSUBAKI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/_ViewStart.cshtml]
+[d:/f i l e s/codes/school codes/TSUBAKI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Shared/_Layout.cshtml]
+[d:/f i l e s/codes/school codes/TSUBAKI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ulbxpv6dws

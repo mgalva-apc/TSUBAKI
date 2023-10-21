@@ -14,10 +14,10 @@ namespace TSUBAKI.Models.EntityManager
                 Users newUser = new Users
                 {
                     LoginName = user.LoginName,
-                    PasswordEncryptedText = user.Password,
+                    PasswordEncryptedText = user.PasswordEncryptedText,
                     FirstName = user.FirstName,
                     LastName = user.LastName,
-                    Gender = "1",
+                    Gender = user.Gender,
                     CreatedBy = 1,
                     CreatedDateTime = DateTime.Now,
                     ModifiedBy = 1,
@@ -37,11 +37,11 @@ namespace TSUBAKI.Models.EntityManager
                 return users = db.Users.ToList();
             }   
         }
-        public bool IsLoginNameExist(string loginName)
+        public bool IsLoginNameExist(string LoginName)
         {
             using (MyDBContext db = new MyDBContext())
             {
-                return db.Users.Where(u => u.LoginName.Equals(loginName)).Any();
+                return db.Users.Where(u => u.LoginName.Equals(LoginName)).Any();
             }
         }
     }
