@@ -6,13 +6,13 @@ namespace TSUBAKI.Models.DB
     {
         [Key]
         public int ScheduleID {get; set;}
-        public string LoginName {get; set;}
-        public string Month {get; set;}
-        public string Day {get; set;}
-        public string TimeSlot {get; set;}
-        public int CreatedBy {get; set;}
-        public DateTime CreatedDateTime {get; set;}
-        public int ModifiedBy {get; set;}
-        public DateTime ModifiedDateTime {get; set;}
+        public int TransactionID {get; set;}
+        public int NotificationID {get; set;}
+        public int AccountID {get; set;}
+        public string AccountUsername {get; set;}
+        public Date ScheduleDate {get; set;}
+        public string ScheduleTime {get; set;}
+        public DateTime ScheduleCreateDate {get; set;}
+        public DateTime ScehduleModDate {get; set;}
     }
 }

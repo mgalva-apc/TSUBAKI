@@ -24,92 +24,330 @@ namespace TSUBAKI.Models.DB
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Users>(entity=>
+            modelBuilder.Entity<Account>(entity=>
             {
-                entity.ToTable("SYSUser");
+                entity.ToTable("SYSAccount");
 
-                entity.Property(e => e.UserID)
-                .HasColumnName("SYSUserID")
+                entity.Property(e => e.AccountID)
+                .HasColumnName("ACC_ID")
                 .HasColumnType("int");
 
-                entity.Property(e => e.LoginName)
-                .HasColumnName("LoginName")
+                entity.Property(e => e.AccountUsername)
+                .HasColumnName("ACC_Username")
                 .HasMaxLength(50)
                 .IsUnicode(false);
 
-                entity.Property(e => e.PasswordEncryptedText)
-                .HasColumnName("PasswordEncryptedText")
+                entity.Property(e => e.AccountPassword)
+                .HasColumnName("ACC_Password")
                 .HasMaxLength(50)
                 .IsUnicode(false);
 
-                entity.Property(e => e.FirstName)
-                .HasColumnName("FirstName")
-                .HasMaxLength(50)
-                .IsUnicode(false);
-
-                entity.Property(e => e.LastName)
-                .HasColumnName("LastName")
-                .HasMaxLength(50)
-                .IsUnicode(false);
-
-                entity.Property(e => e.Gender)
-                .HasColumnName("Gender")
+                entity.Property(e => e.AccountType)
+                .HasColumnName("ACC_Type")
                 .HasColumnType("char(1)");
 
-                entity.Property(e => e.CreatedBy)
-                .HasColumnName("RowCreatedSYSUserID")
-                .HasColumnType("int");
+                entity.Property(e => e.AccountEmail)
+                .HasColumnName("ACC_Email")
+                .HasMaxLength(50)
+                .IsUnicode(false);
 
-                entity.Property(e => e.CreatedDateTime)
-                .HasColumnName("RowCreatedDateTime")
+                entity.Property(e => e.AccountImage)
+                .HasColumnName("ACC_Image")
+                .HasMaxLength(MAX)
+                .IsUnicode(false);
+
+                entity.Property(e => e.ClientCreateDate)
+                .HasColumnName("ACC_CreateDate")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
-                entity.Property(e => e.ModifiedBy)
-                .HasColumnName("RowModifiedSYSUserID")
+                entity.Property(e => e.ClientModDate)
+                .HasColumnName("ACC_ModDate")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            });
+
+            modelBuilder.Entity<Client>(entity=>
+            {
+                entity.ToTable("SYSClient");
+
+                entity.Property(e => e.ClientID)
+                .HasColumnName("CLI_ID")
                 .HasColumnType("int");
 
-                entity.Property(e => e.ModifiedDateTime)
-                .HasColumnName("RowModifiedDateTime")
+                entity.Property(e => e.AccountID)
+                .HasColumnName("ACC_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.AccountUsername)
+                .HasColumnName("ACC_Username")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.ClientFirstName)
+                .HasColumnName("CLI_FirstName")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.ClientLastName)
+                .HasColumnName("CLI_LastName")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.ClientAddress)
+                .HasColumnName("CLI_Address")
+                .HasMaxLength(150)
+                .IsUnicode(false);
+
+                entity.Property(e => e.ClientGender)
+                .HasColumnName("CLI_Gender")
+                .HasColumnType("char(1)");
+
+                entity.Property(e => e.ClientEmail)
+                .HasColumnName("CLI_Email")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.ClientConNum)
+                .HasColumnName("CLI_ConNum")
+                .HasColumnType("char(12)");
+
+                entity.Property(e => e.ClientBirthday)
+                .HasColumnName("CLI_Birth")
+
+                entity.Property(e => e.ClientCreateDate)
+                .HasColumnName("CLI_CreateDate")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.ClientModDate)
+                .HasColumnName("CLI_ModDate")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            });
+
+            modelBuilder.Entity<Staff>(entity=>
+            {
+                entity.ToTable("SYSStaff");
+
+                entity.Property(e => e.StaffID)
+                .HasColumnName("STAFF_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.AccountID)
+                .HasColumnName("ACC_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.AccountUsername)
+                .HasColumnName("ACC_Username")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.StaffFirstName)
+                .HasColumnName("STAFF_FirstName")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.StaffLastName)
+                .HasColumnName("STAFF_LastName")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.StaffRole)
+                .HasColumnName("STAFF_Role")
+                .HasColumnType("char(1)");
+
+                entity.Property(e => e.StaffGender)
+                .HasColumnName("STAFF_Gender")
+                .HasColumnType("char(1)");
+
+                entity.Property(e => e.StaffAddress)
+                .HasColumnName("STAFF_Address")
+                .HasMaxLength(150)
+                .IsUnicode(false);
+
+                entity.Property(e => e.StaffEmail)
+                .HasColumnName("STAFF_Email")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.StaffConNum)
+                .HasColumnName("STAFF_ConNum")
+                .HasColumnType("char(12)");
+
+                entity.Property(e => e.StaffBirthday)
+                .HasColumnName("STAFF_Birth")
+
+                entity.Property(e => e.StaffCreateDate)
+                .HasColumnName("STAFF_CreateDate")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.StaffModDate)
+                .HasColumnName("STAFF_ModDate")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
             });
 
             modelBuilder.Entity<Schedule>(entity=>
             {
-                entity.ToTable("Schedule");
+                entity.ToTable("SYSSchedule");
 
                 entity.Property(e => e.ScheduleID)
-                .HasColumnName("ScheduleID")
+                .HasColumnName("Sched_ID")
                 .HasColumnType("int");
 
-                entity.Property(e => e.LoginName)
-                .HasColumnName("LoginName")
+                entity.Property(e => e.TransactionID)
+                .HasColumnName("TRNS_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.NotificationID)
+                .HasColumnName("Notif_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.AccountID)
+                .HasColumnName("ACC_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.AccountUsername)
+                .HasColumnName("ACC_Username")
                 .HasMaxLength(50)
                 .IsUnicode(false);
 
-                entity.Property(e => e.Month)
-                .HasColumnName("Month");
+                entity.Property(e => e.ScheduleDate)
+                .HasColumnName("Sched_Date")
 
-                entity.Property(e => e.Day)
-                .HasColumnName("Day");
+                entity.Property(e => e.ScheduleTimeslot)
+                .HasColumnName("Sched_Time");
 
-                entity.Property(e => e.TimeSlot)
-                .HasColumnName("TimeSlot");
-
-                entity.Property(e => e.CreatedBy)
-                .HasColumnName("RowCreatedScheduleID")
-                .HasColumnType("int");
-
-                entity.Property(e => e.CreatedDateTime)
-                .HasColumnName("RowCreatedDateTime")
+                entity.Property(e => e.SchedCreateDate)
+                .HasColumnName("Sched_CreateDate")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
-                entity.Property(e => e.ModifiedBy)
-                .HasColumnName("RowModifiedScheduleID")
+                entity.Property(e => e.SchedModDate)
+                .HasColumnName("Sched_ModDate")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            });
+
+            modelBuilder.Entity<Transaction>(entity=>
+            {
+                entity.ToTable("SYSTransaction");
+
+                entity.Property(e => e.TransID)
+                .HasColumnName("TRNS_ID")
                 .HasColumnType("int");
 
-                entity.Property(e => e.ModifiedDateTime)
-                .HasColumnName("RowModifiedDateTime")
+                entity.Property(e => e.TransName)
+                .HasColumnName("TRNS_Name")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.TransStatus)
+                .HasColumnName("TRNS_Status")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.TransType)
+                .HasColumnName("TRNS_Type")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.TransStartDate)
+                .HasColumnName("TRNS_StartDate")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.TransEndDate)
+                .HasColumnName("TRNS_EndDate")
+
+                entity.Property(e => e.StaffID)
+                .HasColumnName("STAFF_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.ClientID)
+                .HasColumnName("CLI_ID")
+                .HasColumnType("int");
+            });
+
+            modelBuilder.Entity<Notification>(entity=>
+            {
+                entity.ToTable("SYSNotification");
+
+                entity.Property(e => e.NotifID)
+                .HasColumnName("Notif_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.NotifContent)
+                .HasColumnName("Notif_Content")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.NotifSendDate)
+                .HasColumnName("Notif_SendDate")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.StaffID)
+                .HasColumnName("STAFF_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.StaffEmail)
+                .HasColumnName("STAFF_Email")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.ClientID)
+                .HasColumnName("CLI_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.ClientEmail)
+                .HasColumnName("CLI_Email")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.DocuID)
+                .HasColumnName("DOCU_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.TransID)
+                .HasColumnName("TRNS_ID")
+                .HasColumnType("int");
+            });
+
+            modelBuilder.Entity<Document>(entity=>
+            {
+                entity.ToTable("SYSDocument");
+
+                entity.Property(e => e.DocuID)
+                .HasColumnName("DOCU_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.DocuName)
+                .HasColumnName("DOCU_Name")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.DocuType)
+                .HasColumnName("DOCU_Type")
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+                entity.Property(e => e.DocuContent)
+                .HasColumnName("DOCU_Content")
+                .HasMaxLength(MAX)
+                .IsUnicode(false);
+
+                entity.Property(e => e.DocuCreateDate)
+                .HasColumnName("DOCU_CreateDate")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.DocuModDate)
+                .HasColumnName("DOCU_ModDate")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.StaffID)
+                .HasColumnName("STAFF_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.ClientID)
+                .HasColumnName("CLI_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.TransID)
+                .HasColumnName("TRNS_ID")
+                .HasColumnType("int");
             });
         }
     }
