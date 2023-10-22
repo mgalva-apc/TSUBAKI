@@ -22,7 +22,7 @@ namespace TSUBAKI.Models.ViewModel
         public int CreatedBy {get; set;}
     }
 
-        public class BooksModel
+    public class BooksModel
     {
         public List<BookModel> Appointments { get; set; }
     }
