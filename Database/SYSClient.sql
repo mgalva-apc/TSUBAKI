@@ -4,15 +4,13 @@ CREATE TABLE [dbo].[SYSClient](
 [ACC_Username] [varchar](50) FOREIGN KEY REFERENCES SYSAccount(ACC_Username) NOT NULL,
 [CLI_FirstName] [varchar](50) NOT NULL,
 [CLI_LastName] [varchar](50) NOT NULL,
-[CLI_Address] [varchar](150) NOT NULL,
+[CLI_Address] [varchar](255) NOT NULL,
 [CLI_Gender] [char](1) NOT NULL,
-[CLI_Email] [varchar](50) NOT NULL,
+[CLI_Email] [varchar](150) FOREIGN KEY REFERENCES SYSAccount(ACC_Email)NOT NULL,
 [CLI_ConNum] [char](12) NOT NULL,
 [CLI_Birth] [date] NOT NULL,
 [CLI_CreateDate] [datetime] DEFAULT GETDATE(),
 [CLI_ModDate] [datetime] DEFAULT GETDATE(),
 PRIMARY KEY (CLI_ID)
-
-CONSTRAINT FK_Client_Account FOREIGN KEY (CLI_Email) REFERENCES SYSAccount(ACC_Email),
 )
 GO

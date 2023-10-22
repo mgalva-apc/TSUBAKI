@@ -11,9 +11,7 @@ namespace TSUBAKI.Models.DB
         public string AccountType {get; set;}
         public string AccountEmail {get; set;}
         public string AccountImage {get; set;}
-        public int CreatedBy {get; set;}
-        public DateTime CreatedDateTime {get; set;}
-        public int ModifiedBy {get; set;}
-        public DateTime ModifiedDateTime {get; set;}
+        public DateTime AccountCreateDate {get; set;}
+        public DateTime AccountModDate {get; set;}
     }
 }

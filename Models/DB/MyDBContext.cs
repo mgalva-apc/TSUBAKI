@@ -12,8 +12,13 @@ namespace TSUBAKI.Models.DB
         : base(options)
         {
         }
-        public virtual DbSet<Users> Users {get; set;}
+        public virtual DbSet<Account> Account {get; set;}
+        public virtual DbSet<Client> Client {get; set;}
+        public virtual DbSet<Document> Document {get; set;}
+        public virtual DbSet<Notification> Notification {get; set;}
         public virtual DbSet<Schedule> Schedule {get; set;}
+        public virtual DbSet<Staff> Staff {get; set;}
+        public virtual DbSet<Transaction> Transaction {get; set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -53,14 +58,13 @@ namespace TSUBAKI.Models.DB
 
                 entity.Property(e => e.AccountImage)
                 .HasColumnName("ACC_Image")
-                .HasMaxLength(MAX)
                 .IsUnicode(false);
 
-                entity.Property(e => e.ClientCreateDate)
+                entity.Property(e => e.AccountCreateDate)
                 .HasColumnName("ACC_CreateDate")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
-                entity.Property(e => e.ClientModDate)
+                entity.Property(e => e.AccountModDate)
                 .HasColumnName("ACC_ModDate")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
             });
@@ -111,7 +115,7 @@ namespace TSUBAKI.Models.DB
                 .HasColumnType("char(12)");
 
                 entity.Property(e => e.ClientBirthday)
-                .HasColumnName("CLI_Birth")
+                .HasColumnName("CLI_Birth");
 
                 entity.Property(e => e.ClientCreateDate)
                 .HasColumnName("CLI_CreateDate")
@@ -157,11 +161,6 @@ namespace TSUBAKI.Models.DB
                 .HasColumnName("STAFF_Gender")
                 .HasColumnType("char(1)");
 
-                entity.Property(e => e.StaffAddress)
-                .HasColumnName("STAFF_Address")
-                .HasMaxLength(150)
-                .IsUnicode(false);
-
                 entity.Property(e => e.StaffEmail)
                 .HasColumnName("STAFF_Email")
                 .HasMaxLength(50)
@@ -172,7 +171,7 @@ namespace TSUBAKI.Models.DB
                 .HasColumnType("char(12)");
 
                 entity.Property(e => e.StaffBirthday)
-                .HasColumnName("STAFF_Birth")
+                .HasColumnName("STAFF_Birth");
 
                 entity.Property(e => e.StaffCreateDate)
                 .HasColumnName("STAFF_CreateDate")
@@ -209,16 +208,16 @@ namespace TSUBAKI.Models.DB
                 .IsUnicode(false);
 
                 entity.Property(e => e.ScheduleDate)
-                .HasColumnName("Sched_Date")
+                .HasColumnName("Sched_Date");
 
                 entity.Property(e => e.ScheduleTimeslot)
                 .HasColumnName("Sched_Time");
 
-                entity.Property(e => e.SchedCreateDate)
+                entity.Property(e => e.ScheduleCreateDate)
                 .HasColumnName("Sched_CreateDate")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
-                entity.Property(e => e.SchedModDate)
+                entity.Property(e => e.ScheduleModDate)
                 .HasColumnName("Sched_ModDate")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
             });
@@ -251,7 +250,7 @@ namespace TSUBAKI.Models.DB
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
                 entity.Property(e => e.TransEndDate)
-                .HasColumnName("TRNS_EndDate")
+                .HasColumnName("TRNS_EndDate");
 
                 entity.Property(e => e.StaffID)
                 .HasColumnName("STAFF_ID")
@@ -326,7 +325,6 @@ namespace TSUBAKI.Models.DB
 
                 entity.Property(e => e.DocuContent)
                 .HasColumnName("DOCU_Content")
-                .HasMaxLength(MAX)
                 .IsUnicode(false);
 
                 entity.Property(e => e.DocuCreateDate)

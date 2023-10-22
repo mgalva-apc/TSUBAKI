@@ -14,10 +14,8 @@ namespace TSUBAKI.Models.DB
         public string ClientGender {get; set;}
         public string ClientEmail {get; set;}
         public int ClientConNum {get; set;}
-        public Date ClientBirthday {get; set;}
-        public int CreatedBy {get; set;}
-        public DateTime CreatedDateTime {get; set;}
-        public int ModifiedBy {get; set;}
-        public DateTime ModifiedDateTime {get; set;}
+        public DateTime ClientBirthday {get; set;}
+        public DateTime ClientCreateDate {get; set;}
+        public DateTime ClientModDate {get; set;}
     }
 }

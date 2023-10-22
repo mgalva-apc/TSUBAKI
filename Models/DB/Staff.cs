@@ -14,10 +14,8 @@ namespace TSUBAKI.Models.DB
         public string StaffGender {get; set;}
         public string StaffEmail {get; set;}
         public int StaffConNum {get; set;}
-        public Date StaffBirthday {get; set;}
-        public int CreatedBy {get; set;}
-        public DateTime CreatedDateTime {get; set;}
-        public int ModifiedBy {get; set;}
-        public DateTime ModifiedDateTime {get; set;}
+        public DateTime StaffBirthday {get; set;}
+        public DateTime StaffCreateDate {get; set;}
+        public DateTime StaffModDate {get; set;}
     }
 }

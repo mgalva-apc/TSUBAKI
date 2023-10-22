@@ -10,9 +10,9 @@ namespace TSUBAKI.Models.DB
         public int NotificationID {get; set;}
         public int AccountID {get; set;}
         public string AccountUsername {get; set;}
-        public Date ScheduleDate {get; set;}
-        public string ScheduleTime {get; set;}
+        public DateTime ScheduleDate {get; set;}
+        public string ScheduleTimeslot {get; set;}
         public DateTime ScheduleCreateDate {get; set;}
-        public DateTime ScehduleModDate {get; set;}
+        public DateTime ScheduleModDate {get; set;}
     }
 }
