@@ -16,20 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\f i l e s\codes\school codes\TSUBAKI
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/f i l e s/codes/school codes/TSUBAKI/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/f i l e s/codes/school codes/TSUBAKI/Views/Account/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Booking/Booking.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nLmNzaHRtbA==
+[D:/f i l e s/codes/school codes/TSUBAKI/Views/Book/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Booking/ViewAppoint.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xWaWV3QXBwb2ludC5jc2h0bWw=
+[D:/f i l e s/codes/school codes/TSUBAKI/Views/Book/ViewAppoint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xWaWV3QXBwb2ludC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/f i l e s/codes/school codes/TSUBAKI/Views/Booking/_bookingdraft.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xfYm9va2luZ2RyYWZ0LmNzaHRtbA==
+[D:/f i l e s/codes/school codes/TSUBAKI/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/f i l e s/codes/school codes/TSUBAKI/Views/Home/Index.cshtml]
