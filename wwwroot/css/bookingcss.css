@@ -1,48 +1,26 @@
-div#general-container{
-    display:flex;
-    gap: 3vw;
-    justify-content:center;
+body{
+    background-image: url("/media/booking-bg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
 
-.information{
-    width: 42vw;
-    height: 83vh;
-    padding-left: 15px;
-    padding-top: 15px;
-    background-color:bisque;
-    border-radius: 15px;
+.contentwrapper{
+    border:3px black solid;
+    display: flex;
 }
 
-.account-ask{
-    background-color:azure; /* !important = force */
-    width: 38vw;
-    height: 54vh;
-    margin: 1vw;
+.calendar{
+    border:3px red solid;
 }
 
-.account-ask h5{
-    margin-top: 2vh;
+.formproper{
+    border:3px blue solid;
 }
 
-.booking-pane{
-    width: 42vw;
-    height: 83vh;
-    padding-left: 15px;
-    padding-top: 15px;
-    background-color:lightpink;
-    border-radius: 15px;
-}
-
-.booking-details{
-    padding-top: 15px;
-}
-
-img#cal-place{
-    width: 25vw;
-    margin-left: 7vw;
-    border-radius: 10px;
-}
-
-div#username{
-    padding-bottom: 15px;
+.monthdaylist{
+    border:3px greenyellow solid;
+    display: flex;
 }
