@@ -8,6 +8,7 @@ namespace TSUBAKI.Models.DB
         public int AccountID {get; set;}
         public string AccountUsername {get; set;}
         public string AccountPassword {get; set;}
+        public string Salt {get; set;}
         public string AccountType {get; set;}
         public string AccountEmail {get; set;}
         public string AccountImage {get; set;}

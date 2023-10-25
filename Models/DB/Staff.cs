@@ -7,12 +7,10 @@ namespace TSUBAKI.Models.DB
         [Key]
         public int StaffID {get; set;}
         public int AccountID {get; set;}
-        public string AccountUsername {get; set;}
         public string StaffFirstName {get; set;}
         public string StaffLastName {get; set;}
         public string StaffRole {get; set;}
         public string StaffGender {get; set;}
-        public string StaffEmail {get; set;}
         public int StaffConNum {get; set;}
         public DateTime StaffBirthday {get; set;}
         public DateTime StaffCreateDate {get; set;}

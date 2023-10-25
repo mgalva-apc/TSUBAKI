@@ -16,12 +16,12 @@
             <p id="subtext1">Access your account and start your deals.</p>
             <p id="text3">Don't have an account?</p>
             <button type="button" id="signinbutt">
-                <a id="tosignin" href="SignIn.cshtml">Log in here.</a>
+                <a id="tosignin" asp-action="SignUp">Sign Up here.</a>
             </button>
         </div>
         <div class="signform">
             <div class="forminfo">
-                <h2>Sign Up</h2>
+                <h2>Log In</h2>
             </div>
             <div class="formproper">
                 @using (Html.BeginForm())

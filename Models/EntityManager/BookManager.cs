@@ -14,7 +14,7 @@ namespace TSUBAKI.Models.EntityManager
             {
                 Schedule newSchedule = new Schedule
                 {
-                    AccountUsername = schedule.AccountUsername,
+                    AccountID = schedule.AccountID,
                     ScheduleDate = schedule.ScheduleDate,
                     ScheduleTimeslot = schedule.ScheduleTimeslot,
                     ScheduleCreateDate = DateTime.Now,
@@ -47,7 +47,7 @@ namespace TSUBAKI.Models.EntityManager
                 {
                     Schedule newSched = new Schedule
                     {
-                        AccountUsername = schedule.AccountUsername,
+                        AccountID = schedule.AccountID,
                         ScheduleDate = schedule.ScheduleDate,
                         ScheduleTimeslot = schedule.ScheduleTimeslot,
                         ScheduleCreateDate = DateTime.Now,
@@ -66,7 +66,7 @@ namespace TSUBAKI.Models.EntityManager
                 list.Schedules = db.Schedule.Select(records => new BookModel()
                 {
                     ScheduleID = records.ScheduleID,
-                    AccountUsername = records.AccountUsername,
+                    AccountID = records.AccountID,
                     ScheduleDate = records.ScheduleDate,
                     ScheduleTimeslot = records.ScheduleTimeslot,
                 }).ToList();

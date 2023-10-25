@@ -17,6 +17,9 @@ namespace TSUBAKI.Models.ViewModel
         [Display(Name = "Username")]
         public string AccountUsername {get; set;}
 
+        [Display(Name = "Password")]
+        public string Password { get; set; }
+        
         [Required(ErrorMessage = "*")]
         [Display(Name = "Password")]
         public string AccountPassword {get; set;}
@@ -90,6 +93,6 @@ namespace TSUBAKI.Models.ViewModel
         [Required(ErrorMessage = "*")]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
-        public string AccountPassword { get; set; }
+        public string Password { get; set; }
     }
 }

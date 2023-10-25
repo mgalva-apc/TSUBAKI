@@ -8,14 +8,24 @@ namespace TSUBAKI.Models.EntityManager
 {
     public class UserManager
     {
+        private (string hashedPassword, string salt) HashPassword(string password)
+                {
+                    string salt = BCrypt.Net.BCrypt.GenerateSalt();
+                    string hashedPassword = BCrypt.Net.BCrypt.HashPassword(password, salt);
+                    return (hashedPassword, salt);
+                }
+        
         public void AddUserAccount(UserModel user)
         {
             using (MyDBContext db = new MyDBContext())
             {
+                // Hashing password
+                (string hashedPassword, string salt) = HashPassword(user.Password);
+
                 Account newAccount = new Account
                 {
                     AccountUsername = user.AccountUsername,
-                    AccountPassword = user.AccountPassword,
+                    AccountPassword = hashedPassword,
                     AccountType = user.AccountType,
                     AccountEmail = user.AccountEmail,
                     AccountImage = user.AccountImage,
@@ -26,11 +36,11 @@ namespace TSUBAKI.Models.EntityManager
                 db.Account.Add(newAccount);
                 db.SaveChanges();
 
-                int newAccountId = db.Client.First(c => c.AccountUsername == newAccount.AccountUsername).ClientID;
+                int newAccountId = db.Account.First(a => a.AccountUsername == newAccount.AccountUsername).AccountID;
 
                 Client newClient = new Client
                 {
-                    ClientID = newAccountId,
+                    AccountID = newAccountId,
                     ClientFirstName = user.ClientFirstName,
                     ClientLastName = user.ClientLastName,
                     ClientAddress = user.ClientAddress,
@@ -43,6 +53,33 @@ namespace TSUBAKI.Models.EntityManager
                 db.Client.Add(newClient);
                 db.SaveChanges();
             }
+        }
+
+        public bool VerifyPassword(string userName, string currentPassword)
+        {
+            using (MyDBContext db = new MyDBContext())
+            {
+                Account user = db.Account.FirstOrDefault(u => u.AccountUsername == userName);
+                
+                if (user != null)
+                {
+                    // Retrieve the salt and hashed password from the database
+                    string salt = user.Salt;
+                    string storedHashedPassword = user.AccountPassword;
+                    
+                    // Hash the current password with the retrieved salt
+                    string hashedPassword = HashPassword(currentPassword, salt);
+                    
+                    // Compare the newly hashed password with the stored hashed password
+                    return hashedPassword == storedHashedPassword;
+                }
+                
+                return false; // User not found
+            }
+        }
+        private string HashPassword(string password, string salt)
+        {
+            return BCrypt.Net.BCrypt.HashPassword(password, salt);
         }
         public UsersModel GetAllUsers()
         {

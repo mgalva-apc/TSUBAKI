@@ -1,5 +1,3 @@
-USE [DemoDB]
-GO
 CREATE TABLE [dbo].[SYSRole](
 [SYSUserRoleID] [int] IDENTITY(1,1) NOT NULL,
 [ACC_ID] [int] NOT NULL,

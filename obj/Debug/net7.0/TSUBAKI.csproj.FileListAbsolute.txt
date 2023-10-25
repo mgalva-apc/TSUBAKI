@@ -190,3 +190,8 @@ D:\f i l e s\codes\school codes\TSUBAKI\obj\Debug\net7.0\refint\TSUBAKI.dll
 D:\f i l e s\codes\school codes\TSUBAKI\obj\Debug\net7.0\TSUBAKI.pdb
 D:\f i l e s\codes\school codes\TSUBAKI\obj\Debug\net7.0\TSUBAKI.genruntimeconfig.cache
 D:\f i l e s\codes\school codes\TSUBAKI\obj\Debug\net7.0\ref\TSUBAKI.dll
+D:\f i l e s\codes\school codes\TSUBAKI\bin\Debug\net7.0\BCrypt.Net-Next.dll
+D:\f i l e s\codes\school codes\TSUBAKI\bin\Debug\net7.0\Microsoft.Owin.dll
+D:\f i l e s\codes\school codes\TSUBAKI\bin\Debug\net7.0\Microsoft.Owin.Security.dll
+D:\f i l e s\codes\school codes\TSUBAKI\bin\Debug\net7.0\Microsoft.Owin.Security.Cookies.dll
+D:\f i l e s\codes\school codes\TSUBAKI\bin\Debug\net7.0\Owin.dll

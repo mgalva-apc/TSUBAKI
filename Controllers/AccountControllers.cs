@@ -68,11 +68,11 @@ namespace TSUBAKI.Controllers
                 UserManager um = new UserManager();
                 string storedHashedPassword = um.GetUserPassword(ulm.AccountUsername);
 
-                if (string.IsNullOrEmpty(storedHashedPassword) || string.IsNullOrEmpty(ulm.AccountPassword))
+                if (string.IsNullOrEmpty(storedHashedPassword) || string.IsNullOrEmpty(ulm.Password))
                 {
                     ModelState.AddModelError("", "The user login or password provided is incorrect.");
                 }
-                else if (BCrypt.Net.BCrypt.Verify(ulm.AccountPassword, storedHashedPassword))
+                else if (BCrypt.Net.BCrypt.Verify(ulm.Password, storedHashedPassword))
                 {
                     var claims = new List<Claim>
                     {

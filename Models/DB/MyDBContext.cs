@@ -46,7 +46,12 @@ namespace TSUBAKI.Models.DB
 
                 entity.Property(e => e.AccountPassword)
                 .HasColumnName("ACC_Password")
-                .HasMaxLength(50)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+
+                entity.Property(e => e.Salt)
+                .HasColumnName("Salt")
+                .HasMaxLength(128)
                 .IsUnicode(false);
 
                 entity.Property(e => e.AccountType)
@@ -55,7 +60,7 @@ namespace TSUBAKI.Models.DB
 
                 entity.Property(e => e.AccountEmail)
                 .HasColumnName("ACC_Email")
-                .HasMaxLength(50)
+                .HasMaxLength(150)
                 .IsUnicode(false);
 
                 entity.Property(e => e.AccountImage)
@@ -83,11 +88,6 @@ namespace TSUBAKI.Models.DB
                 .HasColumnName("ACC_ID")
                 .HasColumnType("int");
 
-                entity.Property(e => e.AccountUsername)
-                .HasColumnName("ACC_Username")
-                .HasMaxLength(50)
-                .IsUnicode(false);
-
                 entity.Property(e => e.ClientFirstName)
                 .HasColumnName("CLI_FirstName")
                 .HasMaxLength(50)
@@ -100,21 +100,16 @@ namespace TSUBAKI.Models.DB
 
                 entity.Property(e => e.ClientAddress)
                 .HasColumnName("CLI_Address")
-                .HasMaxLength(150)
+                .HasMaxLength(255)
                 .IsUnicode(false);
 
                 entity.Property(e => e.ClientGender)
                 .HasColumnName("CLI_Gender")
                 .HasColumnType("char(1)");
 
-                entity.Property(e => e.ClientEmail)
-                .HasColumnName("CLI_Email")
-                .HasMaxLength(50)
-                .IsUnicode(false);
-
                 entity.Property(e => e.ClientConNum)
                 .HasColumnName("CLI_ConNum")
-                .HasColumnType("char(12)");
+                .HasColumnType("char(11)");
 
                 entity.Property(e => e.ClientBirthday)
                 .HasColumnName("CLI_Birth");
@@ -140,11 +135,6 @@ namespace TSUBAKI.Models.DB
                 .HasColumnName("ACC_ID")
                 .HasColumnType("int");
 
-                entity.Property(e => e.AccountUsername)
-                .HasColumnName("ACC_Username")
-                .HasMaxLength(50)
-                .IsUnicode(false);
-
                 entity.Property(e => e.StaffFirstName)
                 .HasColumnName("STAFF_FirstName")
                 .HasMaxLength(50)
@@ -162,11 +152,6 @@ namespace TSUBAKI.Models.DB
                 entity.Property(e => e.StaffGender)
                 .HasColumnName("STAFF_Gender")
                 .HasColumnType("char(1)");
-
-                entity.Property(e => e.StaffEmail)
-                .HasColumnName("STAFF_Email")
-                .HasMaxLength(50)
-                .IsUnicode(false);
 
                 entity.Property(e => e.StaffConNum)
                 .HasColumnName("STAFF_ConNum")
@@ -203,11 +188,6 @@ namespace TSUBAKI.Models.DB
                 entity.Property(e => e.AccountID)
                 .HasColumnName("ACC_ID")
                 .HasColumnType("int");
-
-                entity.Property(e => e.AccountUsername)
-                .HasColumnName("ACC_Username")
-                .HasMaxLength(50)
-                .IsUnicode(false);
 
                 entity.Property(e => e.ScheduleDate)
                 .HasColumnName("Sched_Date");
@@ -284,19 +264,9 @@ namespace TSUBAKI.Models.DB
                 .HasColumnName("STAFF_ID")
                 .HasColumnType("int");
 
-                entity.Property(e => e.StaffEmail)
-                .HasColumnName("STAFF_Email")
-                .HasMaxLength(50)
-                .IsUnicode(false);
-
                 entity.Property(e => e.ClientID)
                 .HasColumnName("CLI_ID")
                 .HasColumnType("int");
-
-                entity.Property(e => e.ClientEmail)
-                .HasColumnName("CLI_Email")
-                .HasMaxLength(50)
-                .IsUnicode(false);
 
                 entity.Property(e => e.DocuID)
                 .HasColumnName("DOCU_ID")

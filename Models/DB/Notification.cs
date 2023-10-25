@@ -9,9 +9,7 @@ namespace TSUBAKI.Models.DB
         public string NotifContent {get; set;}
         public DateTime NotifSendDate {get; set;}
         public int StaffID {get; set;}
-        public string StaffEmail {get; set;}
         public int ClientID {get; set;}
-        public string ClientEmail {get; set;} 
         public int DocuID {get; set;}
         public int TransID {get; set;}
     }

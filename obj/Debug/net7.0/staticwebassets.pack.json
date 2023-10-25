@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\TSUBAKI.bundle.scp.css"
     },
     {
+      "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\bookingcss.css",
+      "PackagePath": "staticwebassets\\css\\bookingcss.css"
+    },
+    {
+      "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\indexcss.css",
+      "PackagePath": "staticwebassets\\css\\indexcss.css"
+    },
+    {
+      "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\signup.css",
+      "PackagePath": "staticwebassets\\css\\signup.css"
+    },
+    {
       "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,5 +1,3 @@
-USE [DemoDB]
-GO
 CREATE TABLE [dbo].[SYSLOOKUPRole](
 [LOOKUPRoleID] [int] IDENTITY(1,1) NOT NULL,
 [RoleName] [varchar](100) DEFAULT '',

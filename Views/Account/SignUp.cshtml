@@ -17,7 +17,7 @@
             <p id="subtext1">Join the ACMR Network and enjoy our services to the fullest.</p>
             <p id="text3">Already have an account?</p>
             <button type="button" id="loginbutt">
-                <a id="tologin" href="Login.cshtml">Log in here.</a>
+                <a id="tologin" asp-action="Login">Log in here.</a>
             </button>
         </div>
         <div class="signform">
@@ -44,7 +44,7 @@
                                     <h6>Image Preview:</h6>
                                     <img class="img" id="avatar" />
                                 </div>
-                                <div class="col">
+                                <div class="col" hidden>
                                     <textarea id="textArea" name="ImageBase64" rows="30" cols="50"> </textarea> 
                                     <input type="hidden" id="hiddenImageBase64" name="AccountImage" value="" />
                                 </div>
