@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TSUBAKI.Models.ViewModel
 {
@@ -27,6 +28,7 @@ namespace TSUBAKI.Models.ViewModel
         public string AccountType {get; set;}
 
         [Required(ErrorMessage = "*")]
+        [EmailAddress(ErrorMessage = "Invalid Email Address")]
         [Display(Name = "Account Email")]
         public string AccountEmail {get; set;}
 
@@ -34,10 +36,12 @@ namespace TSUBAKI.Models.ViewModel
         public string AccountImage { get; set; }
 
         [Required(ErrorMessage = "*")]
+        [StringLength(50, ErrorMessage = "Maximum length is 50 characters.")]
         [Display(Name = "Client First Name")]
         public string ClientFirstName {get; set;}
 
         [Required(ErrorMessage = "*")]
+        [StringLength(50, ErrorMessage = "Maximum length is 50 characters.")]
         [Display(Name = "Client Last Name")]
         public string ClientLastName {get; set;}
 
@@ -45,11 +49,12 @@ namespace TSUBAKI.Models.ViewModel
         [Display(Name = "Client Address")]
         public string ClientAddress {get; set;}
 
+        [Display(Name = "Client Gender")]
         public string ClientGender {get; set;}
 
         [Required(ErrorMessage = "*")]
         [Display(Name = "Client Contact Number")]
-        public int ClientConNum {get; set;}
+        public string ClientConNum {get; set;}
 
         public DateTime ClientBirthday {get; set;}
 /*

@@ -43,6 +43,9 @@ namespace TSUBAKI.Controllers
         public ActionResult SignUp(UserModel user)
         {
             ModelState.Remove("AccountImage");
+            ModelState.Remove("StaffID");
+            ModelState.Remove("AccountType");
+            ModelState.Remove("ClientBirthday");
             ModelState.Remove("RoleName");
 
             if (ModelState.IsValid)
