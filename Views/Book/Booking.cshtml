@@ -16,19 +16,11 @@
             <p id="faqtitle">Frequently Asked Questions (FAQ)</p>
             <div class="questdrop">
                 <div id="questions" class="listquest">
-                    <select name="question" id="qs">
-                        <div class="questitem">
-                            <p>Disclaimer</p>
-                        </div>
-                        <div class="questitem">
-                            <p>Question 1</p>
-                        </div>
-                        <div class="questitem">
-                            <p>Question 2</p>
-                        </div>
-                        <div class="questitem">
-                            <p>Question 3</p>
-                        </div>
+                    <select name="question" id="qs" onchange="qnafunction()">
+                        <option value="Disclaimer" class="questitem">Disclaimer (select for other options)</option>
+                        <option value="q1" class="questitem">Question 1</option>
+                        <option value="q2" class="questitem">Question 2</option>
+                        <option value="q3" class="questitem">Question 3</option>
                     </select>
                 </div>
             </div>
@@ -46,9 +38,12 @@
                     <p>The team will expand this further in the coming days to include proper queries and responses regarding the booking process!</p>
                 </div>
             </div>
+            <div class="additional">
+                <p>For any further questions, find our contacts <a href="~/Home/AboutUs" id="toaboutus">here </a> and we'll get to you as soon as possible!</p>
+            </div>
         </div>
         <div class="formproper">
-            <h2>Book an Appointment</h2>
+            <h2 id="booking-title">Book an Appointment</h2>
             @using (Html.BeginForm())
             {
                 @Html.AntiForgeryToken()
@@ -144,4 +139,5 @@
             </div>
         </div>
     </div>
+    <script src="~/js/bookingjs.js"></script>
 </body>
