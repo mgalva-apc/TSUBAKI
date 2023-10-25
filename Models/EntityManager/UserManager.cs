@@ -26,7 +26,8 @@ namespace TSUBAKI.Models.EntityManager
                 {
                     AccountUsername = user.AccountUsername,
                     AccountPassword = hashedPassword,
-                    AccountType = user.AccountType,
+                    Salt = salt,
+                    AccountType = "C",
                     AccountEmail = user.AccountEmail,
                     AccountImage = user.AccountImage,
                     AccountCreateDate = DateTime.Now,
@@ -52,6 +53,22 @@ namespace TSUBAKI.Models.EntityManager
 
                 db.Client.Add(newClient);
                 db.SaveChanges();
+
+                int roleId = db.Role.First(r => r.RoleName == "Client").RoleID;
+ 
+                UserRole userRole = new UserRole
+                {
+                    AccountID = newAccountId,
+                    LookUpRoleID = roleId,
+                    IsActive = true,
+                    CreatedBy = newAccountId,
+                    CreatedDateTime = DateTime.Now,
+                    ModifiedBy = newAccountId,
+                    ModifiedDateTime = DateTime.Now,
+                };
+ 
+                db.UserRole.Add(userRole);
+                db.SaveChanges();
             }
         }
 

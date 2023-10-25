@@ -25,8 +25,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\viewpointcss.css",
+      "PackagePath": "staticwebassets\\css\\viewpointcss.css"
+    },
+    {
       "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\js\\bookingjs.js",
+      "PackagePath": "staticwebassets\\js\\bookingjs.js"
     },
     {
       "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\js\\site.js",
@@ -259,6 +267,22 @@
     {
       "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\booking-bg.png",
+      "PackagePath": "staticwebassets\\media\\booking-bg.png"
+    },
+    {
+      "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\calendar-placeholder.jpg",
+      "PackagePath": "staticwebassets\\media\\calendar-placeholder.jpg"
+    },
+    {
+      "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\placeholder-image.jpg",
+      "PackagePath": "staticwebassets\\media\\placeholder-image.jpg"
+    },
+    {
+      "Id": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\singup-bg.png",
+      "PackagePath": "staticwebassets\\media\\singup-bg.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TSUBAKI.Microsoft.AspNetCore.StaticWebAssets.props",

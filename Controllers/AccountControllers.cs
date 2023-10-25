@@ -57,7 +57,7 @@ namespace TSUBAKI.Controllers
                 else
                     ModelState.AddModelError("", "Login Name already taken.");
             }
-            return View();
+            return View(user);
         }
 
         [HttpPost]

@@ -5,26 +5,23 @@ namespace TSUBAKI.Models.ViewModel
     public class UserModel
     {
         [Key]
-        public int UserID {get; set;}
 
         public int AccountID {get; set;}
-
-        public int StaffID {get; set;}
-
         public int ClientID {get; set;}
+        public int StaffID {get; set;}
 
         [Required(ErrorMessage = "*")]
         [Display(Name = "Username")]
         public string AccountUsername {get; set;}
 
+        [Required(ErrorMessage = "*")]
         [Display(Name = "Password")]
         public string Password { get; set; }
-        
+        /*
         [Required(ErrorMessage = "*")]
         [Display(Name = "Password")]
         public string AccountPassword {get; set;}
-
-        [Required(ErrorMessage = "*")]
+        */
         [Display(Name = "Account Type")]
         public string AccountType {get; set;}
 
@@ -54,7 +51,8 @@ namespace TSUBAKI.Models.ViewModel
         public int ClientConNum {get; set;}
 
         public DateTime ClientBirthday {get; set;}
-
+/*
+        
         [Required(ErrorMessage = "*")]
         [Display(Name = "Staff First Name")]
         public string StaffFirstName {get; set;}
@@ -72,7 +70,10 @@ namespace TSUBAKI.Models.ViewModel
         public int StaffConNum {get; set;}
 
         public DateTime StaffBirthday {get; set;}
-
+*/
+        public int RoleID { get; set; }
+        public string RoleName { get; set; }
+        
         [Required(ErrorMessage = "*")]
         [Display(Name = "Created By")]
         public int CreatedBy {get; set;}
