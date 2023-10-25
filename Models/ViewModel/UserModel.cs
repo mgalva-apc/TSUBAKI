@@ -6,6 +6,7 @@ namespace TSUBAKI.Models.ViewModel
     {
         [Key]
 
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int AccountID {get; set;}
         public int ClientID {get; set;}
         public int StaffID {get; set;}
