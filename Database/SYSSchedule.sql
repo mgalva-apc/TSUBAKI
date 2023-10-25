@@ -8,5 +8,5 @@ CREATE TABLE [dbo].[SYSSchedule](
 	[Sched_Time] [varchar](20) NOT NULL,
 	[Sched_CreateDate] [datetime] DEFAULT GETDATE(),
 	[Sched_ModDate] [datetime] DEFAULT GETDATE(),
-	PRIMARY KEY (ACC_ID);
+	PRIMARY KEY (ACC_ID))
 GO

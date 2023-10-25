@@ -1,0 +1,39 @@
+.text-center{
+    background-color:greenyellow;
+    width: 88vw;
+    height: 48vh;
+    border-radius: 25px;
+    text-align:center;
+    padding-top: 3vh;
+}
+
+.content2{
+    display:flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.slideshow-pane{
+    background-color:bisque;
+    width: 52vw;
+    height: 54vh;
+    border-radius: 25px;
+    margin: 1vw;
+    padding: 2vw;
+}
+
+.business-services{
+    background-color:lightcoral;
+    width: 35vw;
+    height: 54vh;
+    border-radius: 25px;
+    margin: 1vw;
+    padding: 2vw;
+}
+
+.content3{
+    background-color:paleturquoise;
+    width: 88vw;
+    height: 48vh;
+    border-radius: 25px;
+}

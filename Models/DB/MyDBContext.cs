@@ -19,6 +19,8 @@ namespace TSUBAKI.Models.DB
         public virtual DbSet<Schedule> Schedule {get; set;}
         public virtual DbSet<Staff> Staff {get; set;}
         public virtual DbSet<Transaction> Transaction {get; set;}
+        public virtual DbSet<UserRole> UserRole {get; set;}
+        public virtual DbSet<Role> Role {get; set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -346,6 +348,80 @@ namespace TSUBAKI.Models.DB
                 entity.Property(e => e.TransID)
                 .HasColumnName("TRNS_ID")
                 .HasColumnType("int");
+            });
+
+            modelBuilder.Entity<UserRole>(entity =>
+            {
+                entity.ToTable("SYSRole");
+
+                entity.HasKey(e => new { e.RoleID });
+
+                entity.Property(e => e.RoleID)
+                .HasColumnName("SYSUserRoleID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.AccountID)
+                .HasColumnName("ACC_ID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.LookUpRoleID)
+                .HasColumnName("LOOKUPRoleID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.IsActive)
+                .HasColumnName("IsActive")
+                .HasColumnType("bit");
+
+                entity.Property(e => e.CreatedBy)
+                .HasColumnName("RowCreatedSYSUserID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.CreatedDateTime)
+                .HasColumnName("RowCreatedDateTime")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.ModifiedBy)
+                .HasColumnName("RowModifiedSYSUserID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.ModifiedDateTime)
+                .HasColumnName("RowModifiedDateTime")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            });
+
+            modelBuilder.Entity<Role>(entity =>
+            {
+                entity.ToTable("SYSLOOKUPRole");
+
+                entity.Property(e => e.RoleID)
+                .HasColumnName("LOOKUPRoleID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.RoleName)
+                .HasColumnName("RoleName")
+                .HasMaxLength(100)
+                .IsUnicode(false);
+
+                entity.Property(e => e.RoleDescription)
+                .HasColumnName("RoleDescription")
+                .HasMaxLength(500)
+                .IsUnicode(false);
+
+                entity.Property(e => e.CreatedBy)
+                .HasColumnName("RowCreatedSYSUserID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.CreatedDateTime)
+                .HasColumnName("RowCreatedDateTime")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                entity.Property(e => e.ModifiedBy)
+                .HasColumnName("RowModifiedSYSUserID")
+                .HasColumnType("int");
+
+                entity.Property(e => e.ModifiedDateTime)
+                .HasColumnName("RowModifiedDateTime")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
             });
         }
     }

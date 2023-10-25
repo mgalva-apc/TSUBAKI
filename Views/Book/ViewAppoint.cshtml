@@ -10,22 +10,20 @@
         <thead>
             <tr>
                 <th>Schedule ID</th>
-                <th>Login Name</th>
-                <th>Month</th>
-                <th>Day</th>
+                <th>Client Username</th>
+                <th>Date</th>
                 <th>Time Slot</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var i in Model.Appointments)
+            @foreach (var i in Model.Schedules)
             {
                 <tr>
                     <td>@Html.DisplayFor(m => i.ScheduleID)</td>
-                    <td>@Html.DisplayFor(m => i.LoginName)</td>
-                    <td>@Html.DisplayFor(m => i.Month)</td>
-                    <td>@Html.DisplayFor(m => i.Day)</td>
-                    <td>@Html.DisplayFor(m => i.TimeSlot)</td>
-                    <td><a href="#" class="lnkEdit" data-scheduleID="@i.ScheduleID" data-login="@i.LoginName" data-month="@i.Month" data-day="@i.Day" data-timeslot="@i.TimeSlot">Edit</a></td>
+                    <td>@Html.DisplayFor(m => i.AccountUsername)</td>
+                    <td>@Html.DisplayFor(m => i.ScheduleDate)</td>
+                    <td>@Html.DisplayFor(m => i.ScheduleTimeslot)</td>
+                    <td><a href="#" class="lnkEdit" data-scheduleID="@i.ScheduleID" data-login="@i.AccountUsername" data-month="@i.ScheduleDate" data-timeslot="@i.ScheduleTimeslot">Edit</a></td>
                 </tr>
             }
         </tbody>
@@ -47,61 +45,12 @@
                         <input type="text" class="form-control" id="editSchedId" readonly>
                     </div>
                     <div class="form-group">
-                        <label for="editLoginName">Login Name:</label>
+                        <label for="editAccountUsername">Login Name:</label>
                         <input type="text" class="form-control" id="editLoginName" readonly>
                     </div>
                     <div class="form-group">
-                        <label for="editMonth">Month</label>
-                        <select name="Month" id="editMonth">
-                            <option value="JAN">January</option>
-                            <option value="FEB">February</option>
-                            <option value="MAR">March</option>
-                            <option value="APR">April</option>
-                            <option value="MAY">May</option>
-                            <option value="JUN">June</option>
-                            <option value="JUL">July</option>
-                            <option value="AUG">August</option>
-                            <option value="SEP">September</option>
-                            <option value="OCT">October</option>
-                            <option value="NOV">November</option>
-                            <option value="DEC">December</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="editDay">Day</label>
-                            <select name="Day" id="editDay">
-                                <option value="01">1</option>
-                                <option value="02">2</option>
-                                <option value="03">3</option>
-                                <option value="04">4</option>
-                                <option value="05">5</option>
-                                <option value="06">6</option>
-                                <option value="07">7</option>
-                                <option value="08">8</option>
-                                <option value="09">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                                <option value="13">13</option>
-                                <option value="14">14</option>
-                                <option value="15">15</option>
-                                <option value="16">16</option>
-                                <option value="17">17</option>
-                                <option value="18">18</option>
-                                <option value="19">19</option>
-                                <option value="20">20</option>
-                                <option value="21">21</option>
-                                <option value="22">22</option>
-                                <option value="23">23</option>
-                                <option value="24">24</option>
-                                <option value="25">25</option>
-                                <option value="26">26</option>
-                                <option value="27">27</option>
-                                <option value="28">28</option>
-                                <option value="29">29</option>
-                                <option value="30">30</option>
-                                <option value="31">31</option>
-                            </select>
+                        <label for="editScheduleDate">Month</label>
+                        <input type="date" asp-format="{yyyy-MM-dd}"class="form-control" id="editScheduleDate">
                     </div>
                     <div class="form-group">
                         <label for="editTimeSlot">Time Slots</label>
@@ -128,25 +77,22 @@
     $(document).ready(function () {
         var editModal = $(".edit-modal");
         var editSchedId = $("#editSchedId");
-        var editLoginName = $("#editLoginName");
-        var editMonth = $("#editMonth");
-        var editDay = $("#editDay");
+        var editAccountUsername = $("#editAccountUsername");
+        var editScheduleDate = $("#editScheduleDate");
         var editTimeSlot = $("#editTimeSlot");
 
         // Click event for "Edit" links
         $(".lnkEdit").click(function () {
             var scheduleId = $(this).data("scheduleid");
-            var loginName = $(this).data("login");
-            var schedmonth = $(this).data("month");
-            var schedday = $(this).data("day");
-            var schedtime = $(this).data("timeslot");
+            var userName = $(this).data("username");
+            var schedDate = $(this).data("date");
+            var schedTime = $(this).data("timeslot");
 
             // Populate the modal with user data
             editSchedId.val(scheduleId);
-            editLoginName.val(loginName);
-            editMonth.val(schedmonth);
-            editDay.val(schedday);
-            editTimeSlot.val(schedtime);
+            editAccountUsername.val(username);
+            editScheduleDate.val(schedDate);
+            editTimeSlot.val(schedTime);
 
             // Show the modal
             editModal.modal("show");
@@ -158,10 +104,9 @@
             // Create a JavaScript object with the updated user data
             var schedData = {
                 ScheduleID: editSchedId.val(),
-                LoginName: editLoginName.val(),
-                Month: editMonth.val(),
-                Day: editDay.val(),
-                TimeSlot: editTimeSlot.val()
+                AccountUsername: editAccountUsername.val(),
+                ScheduleDate: editScheduleDate.val(),
+                ScheduleTimeslot: editTimeSlot.val()
             };
 
             // Perform your update logic here (e.g., call an API or submit a form)

@@ -2,33 +2,36 @@ using System.Security.Cryptography.X509Certificates;
 using Microsoft.AspNetCore.Mvc;
 using TSUBAKI.Models.EntityManager;
 using TSUBAKI.Models.ViewModel;
+using TSUBAKI.Security;
+using System.Security.Claims;
 
 namespace TSUBAKI.Controllers
 {
     public class BookController : Controller
     {
+        [AuthorizeRoles("Staff", "Client")]
         public ActionResult Booking()
         {
             return View();
         }
 
+        [AuthorizeRoles("Staff", "Client")]
         public ActionResult ViewAppoint()
         {
             BookManager bm = new BookManager();
-            BooksModel appointment = bm.GetAllAppointment();
-
-            return View(appointment);
+            BooksModel schedule = bm.GetAllAppointment();
+            return View(schedule);
         }
 
         [HttpPost]
-        public ActionResult Booking(BookModel appointment)
+        public ActionResult Booking(BookModel schedule)
         {
             if(ModelState.IsValid)
             {
                 BookManager BM = new BookManager();
-                if(!BM.IsScheduleExist(appointment.Month, appointment.Day, appointment.TimeSlot))
+                if(!BM.IsScheduleExist(schedule.ScheduleDate, schedule.ScheduleTimeslot))
                 {
-                    BM.AddSchedule(appointment);
+                    BM.AddSchedule(schedule);
                     return RedirectToAction("", "Home");
                 }
                 else
@@ -41,7 +44,7 @@ namespace TSUBAKI.Controllers
         public async Task<ActionResult> Update([FromBody] BookModel schedData)
         {
             BookManager bm = new BookManager();
-            if (!bm.IsScheduleExist(schedData.Month, schedData.Day, schedData.TimeSlot))
+            if (!bm.IsScheduleExist(schedData.ScheduleDate, schedData.ScheduleTimeslot))
             {
                 bm.UpdateSchedule(schedData);
                 return RedirectToAction("Index"); // Redirect to a relevant action after successful update.
