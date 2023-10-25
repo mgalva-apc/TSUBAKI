@@ -90,7 +90,7 @@ namespace TSUBAKI.Controllers
                     HttpContext.SignInAsync(principal);
 
                     // Redirect to the desired action (e.g., "Users")
-                    return RedirectToAction("Dashboard");
+                    return RedirectToAction("Index", "Home");
                     }
                     else
                     {
