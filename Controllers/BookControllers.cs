@@ -38,7 +38,6 @@ namespace TSUBAKI.Controllers
             ModelState.Remove("AccountType");
             ModelState.Remove("ClientBirthday");
             ModelState.Remove("RoleName");
-            ModelState.Remove("AccountID");
             ModelState.Remove("AccountEmail");
             if(ModelState.IsValid)
             {

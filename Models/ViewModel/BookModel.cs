@@ -17,7 +17,7 @@ namespace TSUBAKI.Models.ViewModel
 
         [Required(ErrorMessage = "*")]
         [Display(Name = "Username")]
-        public string AccountUsername {get; set;}
+        public string ClientUsername {get; set;}
         [Display(Name = "Schedule Date")]
         public DateTime ScheduleDate {get; set;}
         [Display(Name = "Schedule Timeslot")]

@@ -12,9 +12,12 @@ namespace TSUBAKI.Models.EntityManager
         {
             using (MyDBContext db = new MyDBContext())
             {
+                int accountId = db.Account.Where(account => account.AccountUsername == schedule.ClientUsername).Select(account => account.AccountID).FirstOrDefault();
                 
                 Schedule newSchedule = new Schedule
                 {
+                    AccountID = accountId,
+                    ClientUsername = schedule.ClientUsername,
                     ScheduleDate = schedule.ScheduleDate,
                     ScheduleTimeslot = schedule.ScheduleTimeslot,
                     ScheduleCreateDate = DateTime.Now,
@@ -47,7 +50,7 @@ namespace TSUBAKI.Models.EntityManager
                 {
                     Schedule newSched = new Schedule
                     {
-                        AccountID = schedule.AccountID,
+                        ClientUsername = schedule.ClientUsername,
                         ScheduleDate = schedule.ScheduleDate,
                         ScheduleTimeslot = schedule.ScheduleTimeslot,
                         ScheduleCreateDate = DateTime.Now,
@@ -66,7 +69,7 @@ namespace TSUBAKI.Models.EntityManager
                 list.Schedules = db.Schedule.Select(records => new BookModel()
                 {
                     ScheduleID = records.ScheduleID,
-                    AccountID = records.AccountID,
+                    ClientUsername = records.ClientUsername,
                     ScheduleDate = records.ScheduleDate,
                     ScheduleTimeslot = records.ScheduleTimeslot,
                 }).ToList();
