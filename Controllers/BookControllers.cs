@@ -26,10 +26,24 @@ namespace TSUBAKI.Controllers
         [HttpPost]
         public ActionResult Booking(BookModel schedule)
         {
+            DateTime myDateTime = schedule.ScheduleDate;
+            string ScheduleDate = myDateTime.ToString("MM/dd/yyyy");
+
+            ModelState.Remove("StaffID");
+            ModelState.Remove("TransName");
+            ModelState.Remove("TransType");
+            ModelState.Remove("TransEndDate");
+            ModelState.Remove("AccountImage");
+            ModelState.Remove("StaffID");
+            ModelState.Remove("AccountType");
+            ModelState.Remove("ClientBirthday");
+            ModelState.Remove("RoleName");
+            ModelState.Remove("AccountID");
+            ModelState.Remove("AccountEmail");
             if(ModelState.IsValid)
             {
                 BookManager BM = new BookManager();
-                if(!BM.IsScheduleExist(schedule.ScheduleDate, schedule.ScheduleTimeslot))
+                if(!BM.IsScheduleExist(ScheduleDate, schedule.ScheduleTimeslot))
                 {
                     BM.AddSchedule(schedule);
                     return RedirectToAction("", "Home");
@@ -43,8 +57,11 @@ namespace TSUBAKI.Controllers
         [HttpPut]
         public async Task<ActionResult> Update([FromBody] BookModel schedData)
         {
+            DateTime myDateTime = schedData.ScheduleDate; // Correct the variable name to schedData
+            string ScheduleDate = myDateTime.ToString("MM/dd/yyyy");
+
             BookManager bm = new BookManager();
-            if (!bm.IsScheduleExist(schedData.ScheduleDate, schedData.ScheduleTimeslot))
+            if (!bm.IsScheduleExist(ScheduleDate, schedData.ScheduleTimeslot))
             {
                 bm.UpdateSchedule(schedData);
                 return RedirectToAction("Index"); // Redirect to a relevant action after successful update.

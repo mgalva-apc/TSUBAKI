@@ -177,14 +177,6 @@ namespace TSUBAKI.Models.DB
                 .HasColumnName("Sched_ID")
                 .HasColumnType("int");
 
-                entity.Property(e => e.TransactionID)
-                .HasColumnName("TRNS_ID")
-                .HasColumnType("int");
-
-                entity.Property(e => e.NotificationID)
-                .HasColumnName("Notif_ID")
-                .HasColumnType("int");
-
                 entity.Property(e => e.AccountID)
                 .HasColumnName("ACC_ID")
                 .HasColumnType("int");

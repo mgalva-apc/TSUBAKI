@@ -12,9 +12,9 @@ namespace TSUBAKI.Models.EntityManager
         {
             using (MyDBContext db = new MyDBContext())
             {
+                
                 Schedule newSchedule = new Schedule
                 {
-                    AccountID = schedule.AccountID,
                     ScheduleDate = schedule.ScheduleDate,
                     ScheduleTimeslot = schedule.ScheduleTimeslot,
                     ScheduleCreateDate = DateTime.Now,
@@ -79,11 +79,6 @@ namespace TSUBAKI.Models.EntityManager
             {
                 return db.Schedule.Any(a => a.ScheduleDate.Equals(ScheduleDate) && a.ScheduleTimeslot.Equals(ScheduleTimeslot));
             }
-        }
-
-        internal bool IsScheduleExist(DateTime scheduleDate, string scheduleTimeslot)
-        {
-            throw new NotImplementedException();
         }
     }
 }

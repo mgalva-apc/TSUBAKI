@@ -10,8 +10,6 @@
     <meta charset="utf-8">
     <link href="~/css/bookingcss.css" rel="stylesheet">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
     <div class="contentwrapper">
@@ -19,19 +17,11 @@
             <p id="faqtitle">Frequently Asked Questions (FAQ)</p>
             <div class="questdrop">
                 <div id="questions" class="listquest">
-                    <select name="question" id="qs">
-                        <div class="questitem">
-                            <p>Disclaimer</p>
-                        </div>
-                        <div class="questitem">
-                            <p>Question 1</p>
-                        </div>
-                        <div class="questitem">
-                            <p>Question 2</p>
-                        </div>
-                        <div class="questitem">
-                            <p>Question 3</p>
-                        </div>
+                    <select name="question" id="qs" onchange="qnafunction()">
+                        <option value="Disclaimer" class="questitem">Disclaimer (select for other options)</option>
+                        <option value="q1" class="questitem">Question 1</option>
+                        <option value="q2" class="questitem">Question 2</option>
+                        <option value="q3" class="questitem">Question 3</option>
                     </select>
                 </div>
             </div>
@@ -48,6 +38,9 @@
                 <div class="respinput">
                     <p>The team will expand this further in the coming days to include proper queries and responses regarding the booking process!</p>
                 </div>
+            </div>
+            <div class="additional">
+                <p>For any further questions, find our contacts <a href="~/Home/AboutUs" id="toaboutus">here </a> and we'll get to you as soon as possible!</p>
             </div>
         </div>
         <div class="formproper">
@@ -66,13 +59,11 @@
                             @Html.ValidationMessageFor(model => model.AccountUsername, "", new { @class ="text-danger" })
                         </div>
                     </div>
-                    <div class="monthdaylist">
-                        <div class="form-group">
+                    <div class="form-group">
                         @Html.LabelFor(model => model.ScheduleDate, htmlAttributes: new { @class = "control-label col-md-2" })
-                        <div class="col-md-10">
-                            @Html.TextBoxFor(model => model.ScheduleDate, new { @class = "form-control", @id = "datepicker" })
-                        </div>
-                    </div>
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.ScheduleDate, new { @class = "form-control datepicker", @id = "datepicker", @type = "date", @data_date_format = "mm/dd/yyyy" })
+                            </div>
                     </div>
                     <div class="form-group">
                         @Html.LabelFor(model => model.ScheduleTimeslot, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -91,14 +82,9 @@
                     </div>
                 </div>
             }
-            <div>
-                @Html.ActionLink("Back to Main", "Index","Home")
-            </div>
         </div>
     </div>
-    <script>
-        $(document).ready(function () {
-            $("#datepicker").datepicker();
-        });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/js/bookingjs.js"></script>
 </body>
