@@ -52,7 +52,7 @@ namespace TSUBAKI.Models.EntityManager
                 };
 
                 db.Client.Add(newClient);
-                db.SaveChanges();
+                db.SaveChanges();  
 
                 int roleId = db.Role.First(r => r.RoleName == "Client").RoleID;
  

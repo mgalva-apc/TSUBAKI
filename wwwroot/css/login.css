@@ -18,9 +18,10 @@ body{
 
 .extracontent{
     background-color: rgba(0,0,0,0.20);
-    padding-right: 3vw;
-    padding-left: 5vw;
+    padding-right: 15vw;
+    padding-left: 7vw;
     padding-top: 22vh;
+    padding-bottom: 7vh;
     margin-left: -32vw;
     margin-right: -3vw;
     margin-bottom: -6vh;
@@ -30,14 +31,14 @@ p#text1{
     font-size: 4.2vw;
     font-weight: bold;
     color: white;
-    margin-bottom: -7vh;
+    margin-bottom: 7vh;
 }
 
 p#subtext1{
     font-size: 1.3vw;
-    color:aliceblue;
-    margin-bottom: 21vh;
-}
+    color:#f0f8ff;
+    margin-top: 7vh;
+} 
 
 p#text3{
     font-size: 1.3vw;
