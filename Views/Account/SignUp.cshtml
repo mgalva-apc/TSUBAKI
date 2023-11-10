@@ -7,7 +7,7 @@
 }
 <head>
     <meta charset="utf-8">
-     <link href="~/css/signup.css" rel="stylesheet">
+    <link href="~/css/signup.css" rel="stylesheet">
 </head>
 <body>
     <div class="contentwrapper">
@@ -17,12 +17,12 @@
             <p id="subtext1">Join the ACMR Network and enjoy our services to the fullest.</p>
             <p id="text3">Already have an account?</p>
             <button type="button" id="loginbutt">
-                <a id="tologin" href="Login.cshtml">Log in here.</a>
+                <a id="tologin" asp-action="Login">Log in here.</a>
             </button>
         </div>
         <div class="signform">
             <div class="forminfo">
-                <h2 id="sign-title">Sign Up</h2>
+                <h2>SignUp</h2>
             </div>
             <div class="formproper">
                 @using (Html.BeginForm())
@@ -31,53 +31,100 @@
                     <div class="form-horizontal">
                         <hr />
                         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="row">
+                        <h6>Account Image:</h6>
+                        <div style="margin: 16px; padding: 16px">
+                            <input class="form-control form-control-lg"
+                                id="selectAvatar"
+                                type="file" />
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h6>Image Preview:</h6>
+                                    <img class="img" id="avatar" />
+                                </div>
+                                <div class="col" hidden>
+                                    <textarea id="textArea" name="ImageBase64" rows="30" cols="50"> </textarea> 
+                                    <input type="hidden" id="hiddenImageBase64" name="AccountImage" value="" />
+                                </div>
+                                <div class="col" hidden>
+                                    @Html.TextBoxFor(model => model.AccountImage, new { type = "file", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.AccountImage, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                         <div class="form-group">
-                            @Html.LabelFor(model => model.LoginName, htmlAttributes: new { @class =
+                            @Html.LabelFor(model => model.AccountUsername, htmlAttributes: new { @class =
                         "control-label col-md-2" })
                             <div class="col-md-10">
-                                @Html.EditorFor(model => model.LoginName, new { htmlAttributes = new {
+                                @Html.EditorFor(model => model.AccountUsername, new { htmlAttributes = new {
                             @class = "form-control" } })
-                                @Html.ValidationMessageFor(model => model.LoginName, "", new { @class =
+                                @Html.ValidationMessageFor(model => model.AccountUsername, "", new { @class =
                             "text-danger" })
                             </div>
                         </div>
                         <div class="form-group">
-                            @Html.LabelFor(model => model.PasswordEncryptedText, htmlAttributes: new { @class =
+                            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class =
                         "control-label col-md-2" })
                             <div class="col-md-10">
-                                @Html.PasswordFor(model => model.PasswordEncryptedText, new { @class = "form-control"
+                                @Html.PasswordFor(model => model.Password, new { @class = "form-control"
                             } )
-                                @Html.ValidationMessageFor(model => model.PasswordEncryptedText, "", new { @class =
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class =
                             "text-danger" })
                             </div>
                         </div>
                         <div class="form-group">
-                            @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class =
+                            @Html.LabelFor(model => model.ClientFirstName, htmlAttributes: new { @class =
                         "control-label col-md-2" })
                             <div class="col-md-10">
-                                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new {
+                                @Html.EditorFor(model => model.ClientFirstName, new { htmlAttributes = new {
                             @class = "form-control" } })
-                                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger"
+                                @Html.ValidationMessageFor(model => model.ClientFirstName, "", new { @class = "text-danger"
                             })
                             </div>
                         </div>
                         <div class="form-group">
-                            @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class =
+                            @Html.LabelFor(model => model.ClientLastName, htmlAttributes: new { @class =
                         "control-label col-md-2" })
                             <div class="col-md-10">
-                                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new {
+                                @Html.EditorFor(model => model.ClientLastName, new { htmlAttributes = new {
                             @class = "form-control" } })
-                                @Html.ValidationMessageFor(model => model.LastName, "", new { @class =
+                                @Html.ValidationMessageFor(model => model.ClientLastName, "", new { @class =
                             "text-danger" })
                             </div>
                         </div>
                         <div class="form-group">
-                            @Html.LabelFor(model => model.Gender, htmlAttributes: new { @class =
+                        @Html.LabelFor(model => model.AccountEmail, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.AccountEmail, new { htmlAttributes = new {@class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.AccountEmail, "", new { @class = "text-danger"})
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ClientAddress, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.ClientAddress, new { htmlAttributes = new {@class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ClientAddress, "", new { @class = "text-danger"})
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ClientConNum, htmlAttributes: new { @class ="control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.ClientConNum, new { htmlAttributes = new {@class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ClientConNum, "", new { @class = "text-danger"
+                            })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ClientGender, htmlAttributes: new { @class =
                         "control-label col-md-2" })
                             <div class="col-md-10">
-                                @Html.DropDownListFor(model => model.Gender, new List<SelectListItem> {
+                                @Html.DropDownListFor(model => model.ClientGender, new List<SelectListItem> {
                             new SelectListItem { Text="Male", Value="M" },
-                            new SelectListItem { Text="Female", Value="F" }
+                            new SelectListItem { Text="Female", Value="F" },
+                            new SelectListItem { Text="Other", Value="O" }
                             }, new { @class = "form-control" })
                             </div>
                         </div>
@@ -88,9 +135,39 @@
                         </div>
                     </div>
                 }
-                <div>
-                    @Html.ActionLink("Back to Main", "Index","Home")
-                </div>
+                <script>
+                    const input = document.getElementById("selectAvatar");
+                    const avatar = document.getElementById("avatar");
+                    const textArea = document.getElementById("textArea");
+                    const hiddenImageBase64 = document.getElementById("hiddenImageBase64");
+
+                    const convertBase64 = (file) => {
+                        return new Promise((resolve, reject) => {
+                            const fileReader = new FileReader();
+                            fileReader.readAsDataURL(file);
+
+                            fileReader.onload = () => {
+                                resolve(fileReader.result);
+                            };
+
+                            fileReader.onerror = (error) => {
+                                reject(error);
+                            };
+                        });
+                    };
+
+                    const uploadImage = async (event) => {
+                        const file = event.target.files[0];
+                        const base64 = await convertBase64(file);
+                        avatar.src = base64;
+                        textArea.innerText = base64;
+                        hiddenImageBase64.value = base64;
+                    };
+
+                    input.addEventListener("change", (e) => {
+                        uploadImage(e);
+                    });
+                </script>
             </div>
         </div>
     </div>

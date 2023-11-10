@@ -1,6 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using TSUBAKI.Models;
+using TSUBAKI.Security;
+using System.Security.Claims;
 
 namespace TSUBAKI.Controllers;
 
@@ -33,11 +35,18 @@ public class HomeController : Controller
         return View();
     }
 
+    public ActionResult Login()
+    {
+        return View();
+    }
+
+    [AuthorizeRoles("Staff", "Client")]
     public IActionResult Booking()
     {
         return View();
     }
 
+    [AuthorizeRoles("Staff", "Client")]
     public IActionResult ViewAppoint()
     {
         return View();

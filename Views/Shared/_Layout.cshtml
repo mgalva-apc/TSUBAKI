@@ -26,14 +26,37 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignUp">Sign Up/Login</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Book" asp-action="Booking">Book an Appointment</a>
                         </li>
-                        <li class="nav-item">
+                        
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Dashboard">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Book" asp-action="ViewAppoint">View Appointments</a>
-                        </li>
+                            </li>
+                        }
+                    </ul>
+                    <ul class="navbar-nav">
+                        <!-- Add a "Logout" link or button here -->
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <form asp-controller="Account" asp-action="LogOut" method="post" class="form-inline">
+                                    <button type="submit" class="nav-link btn-link btn-purple">
+                                        Logout
+                                    </button>
+                                </form>
+                            </li>                        
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Sign Up/Login</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
