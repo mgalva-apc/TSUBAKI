@@ -22,7 +22,7 @@ namespace TSUBAKI.Controllers
             return View();
         }
 
-        [AuthorizeRoles("Client")]
+        [AuthorizeRoles("Client, Staff")]
         public ActionResult AccountSettings()
         {
 
@@ -31,12 +31,12 @@ namespace TSUBAKI.Controllers
             return View(user);
         }
 
-        [AuthorizeRoles("Client")]
+        [AuthorizeRoles("Client, Staff")]
         public ActionResult Dashboard()
         {
-            BookManager bm = new BookManager();
-            BooksModel sched = bm.GetAllAppointment();
-            return View(sched);
+            UserManager um = new UserManager();
+            UsersModel user = um.GetAllUsers();
+            return View(user);
         }
 
         [HttpPost]
