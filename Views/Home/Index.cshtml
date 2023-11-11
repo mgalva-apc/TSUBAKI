@@ -8,21 +8,79 @@
 <body>
     <div id="content-container">
         <div class="text-center">
+            <video autoplay muted loop id="videobg">
+                <source src="~/media/vidbg.mp4" type="video/mp4">
+            </video>
             <h1 class="display-4">Welcome to ACMR Services!</h1>
-            <p>This page will contain the key information regarding the business.</p>
+            <div id="flashingtext">
+                <p class="randmes">Building your business one step at a time.</p>
+                <p class="randmes">BIR, SSS, PAG-IBIG? We got you covered.</p>
+                <p class="randmes">Title transfers and land transfers never been easier.</p>
+                <p class="randmes">Join the ACMR Community and enjoy our services today!</p>
+            </div>
         </div>
         <div class="content2">
-            <div class="slideshow-pane">
-                <h3>slideshow will be placed in this spot</h3>
-            </div>
-            <div class="business-services">
-                <h3>more information about the business and their services over here</h3>
-            </div>
+                <div id="slideshow-container">
+                    <img class="index-slide" src="~/media/indexslides/1.png">
+                    <img class="index-slide" src="~/media/indexslides/2.png">
+                    <img class="index-slide" src="~/media/indexslides/3.png">
+                    <img class="index-slide" src="~/media/indexslides/4.png">
+                    <img class="index-slide" src="~/media/indexslides/5.png">
+                </div>
+                <div id="slideshow-sidebar">
+                    <h1>ACMR's offered services</h1>
+                    <div id="index-desc">
+                        <p>Building and maintaining businesses come with a need to secure and process necessary documents. </br> However, this can be a time consuming and resource exhausting process.</p>
+                        <h4>That's why ACMR Services is here to give you a helping hand!</h4>
+                </div>
         </div>
         <div class="content3">
             <h2>quick links and other content will be added later on into development</h2>
         </div>
     </div>
 </body>
+<script>
+    var container = document.getElementById("slideshow-container"); 
+    var slides = container.getElementsByClassName("index-slide");
+
+    function showSlides(s, i) {
+        s[i].style.opacity = "1"; 
+
+        if (i == 0) { 
+            s[s.length-1].style.opacity = "0";
+        } else {
+            s[i-1].style.opacity = "0";
+        }
+
+        i++;
+        if (i >= s.length) { 
+            i = 0; 
+        }
+        setTimeout(function () { showSlides(s, i) }, 5000);
+    }
+
+    //flashingtext
+    var container2 = document.getElementById("flashingtext"); 
+    var slides2 = container2.getElementsByClassName("randmes");
+
+    function showSlides2(s, i) {
+        s[i].style.opacity = "1"; 
+
+        if (i == 0) { 
+            s[s.length-1].style.opacity = "0";
+        } else {
+            s[i-1].style.opacity = "0";
+        }
+
+        i++;
+        if (i >= s.length) { //LESSON 9.3 - COMPARISONS//
+            i = 0; //LESSON 5.2 - ASSINGMENTS//
+        }
+        setTimeout(function () { showSlides2(s, i) }, 5000);
+    }
+
+    showSlides(slides, 0);
+    showSlides2(slides2, 0);
+</script>
 
 

@@ -16,41 +16,37 @@ body{
     justify-content: center;
 }
 
-h2#sign-title{
-    font-size: 2.4vw;
-}
-
 .extracontent{
-    background-color: rgba(0,0,0,0.25);
-    padding-right: 3vw;
-    padding-left: 5vw;
+    background-color: rgba(0,0,0,0.20);
+    padding-right: 10vw;
+    padding-left: 7vw;
     padding-top: 22vh;
-    margin-left: -38vw;
+    padding-bottom: 7vh;
+    margin-left: -24vw;
     margin-right: -3vw;
     margin-bottom: -6vh;
-    min-width: 26vw;
-    min-height: 24vh;
 }
 
 p#text1{
     font-size: 4.2vw;
     font-weight: bold;
     color: white;
-    margin-bottom: -7vh;
+    margin-bottom: 2vh;
 }
 
 p#text2{
     font-size: 4.2vw;
     font-weight: bold;
     color: white;
-    margin-bottom: -2vh;
+    margin-bottom: 7vh;
 }
 
 p#subtext1{
     font-size: 1.3vw;
-    color:aliceblue;
-    margin-bottom: 19vh;
-}
+    color:#f0f8ff;
+    margin-top: 7vh;
+    margin-bottom: 14vh;
+} 
 
 p#text3{
     font-size: 1.3vw;
@@ -62,29 +58,23 @@ button#loginbutt{
     border-color: white;
     border: 0;
     border-radius: 15px;
-    margin-bottom: 7vh;
 }
 
 a#tologin{
-    color:white;
-    font-weight: bold;
-    font-size: 1.3vw;
-    text-decoration:none;
+    color:aliceblue;
 }
 
 a#tologin:hover{
     color:aquamarine;
-    font-size: 1.5vw;
 }
 
 
 .signform{
-    min-width:58vw;
-    margin-right: -38vw;
+    width:56vw;
+    margin-right: -25vw;
     margin-left: 3vw;
     background-color: rgba(255,255,255,0.3);
     margin-bottom: -6vh;
-    min-height: 24vh;
 }
 
 .forminfo{
@@ -95,7 +85,13 @@ a#tologin:hover{
 .formproper{
     padding-left: 6vw;
     padding-bottom: 4vh;
-    border-left: 0.3vw coral solid;
-    margin-left: 1.2vw;
-    font-size: 1.3vw;
+    max-width: 50vw;
+    font-size: 1.2vw;
+}
+
+img#avatar{
+    width: 7vw;
+    border-radius: 50%;
+    text-align: center;
+    max-width: 47vw !important;
 }

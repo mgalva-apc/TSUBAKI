@@ -1,37 +1,117 @@
-.text-center{
-    background-color:greenyellow;
-    width: 88vw;
-    height: 48vh;
-    border-radius: 25px;
-    text-align:center;
-    padding-top: 3vh;
+div#header{
+    border-bottom: 2vw solid coral;
 }
 
-.content2{
-    display:flex;
-    gap: 2vw;
+div#content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+
+.text-center h1{
+    position: absolute;
+    top: 25vh;
+    left: 23vw;
+    z-index: 2;
+}
+
+video#videobg{
+    object-fit: cover;
+    overflow: clip;
+    width: 90vw;
+    height: 50vh;
+}
+
+
+div#flashingtext{
     justify-content: center;
+    min-height: 5vh;
 }
 
-.slideshow-pane{
-    background-color:bisque;
-    width: 52vw;
-    height: 54vh;
-    border-radius: 25px;
-    margin: 1vw;
-    padding: 2vw;
+.randmes{
+    z-index: 4;
+    position: absolute;
+    left: 24vw;
+    bottom: 145vh;
+    padding-bottom: 1.2vh;
+    text-align: center;
+    font-size: 1.4vw;
+    background-color: #Ee9898;
+    height: 6.4vh;
+    width: 55vw;
+    border: 8px solid white;
+    border-radius: 20px;
+    color: white;
+    opacity:0;
+    transition: opacity 1s ease-out;
 }
 
-.business-services{
-    background-color:lightcoral;
-    width: 35vw;
-    height: 54vh;
-    border-radius: 25px;
-    margin: 1vw;
-    padding: 2vw;
+
+
+div#content2 {
+    display: flex;
+    justify-content: center;
+    gap: 2.3vw;
+    padding-top: 6vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border: 31px solid red;
 }
+
+div#content2 p, ul{
+    font-size:1.26vw;
+}
+
+div#slideshow-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: -7vw;
+}
+
+div#slideshow-container img#index-slideframe{
+    width:60vw;
+}
+
+div#slideshow-sidebar {
+    position:relative;
+    z-index: 2;
+    background-color:aliceblue;
+    max-width: 40vw;
+    width: 40vw;
+    left: 48vw;
+}
+
+div#index-desc {
+    text-align:justify;
+    margin: 1vw;
+    background-color:lightpink;
+    border-radius: 20%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.index-slide{
+    z-index:1;
+    position: absolute;
+    top: 6vw;
+    left: 6vw;
+    border-radius: 5%;
+    border: 2px white solid;
+    object-fit: cover;
+    width:47vw;
+    height: 25vw;
+    opacity:0;
+    transition: opacity 1s ease-out;
+}
+
 
 .content3{
+    border: 1px solid blue;
+    margin-top: 5vh;
     background-color:paleturquoise;
     width: 88vw;
     height: 48vh;
