@@ -129,6 +129,45 @@ namespace TSUBAKI.Models.EntityManager
             }
             return list;
         }
+
+        public UsersModel GetSpecificUsers(string UserName)
+        {
+            UsersModel list = new UsersModel();
+ 
+            using (MyDBContext db = new MyDBContext())
+            {
+                var users = from a in db.Account
+                            join c in db.Client
+                                on a.AccountID equals c.AccountID
+                            join s in db.Staff
+                                on a.AccountID equals s.AccountID
+                            join ur in db.UserRole
+                                        on a.AccountID equals ur.AccountID
+                            join r in db.Role
+                                        on ur.LookUpRoleID equals r.RoleID
+                            where a.AccountUsername == UserName
+                            select new { a, c, s, ur, r};
+ 
+                list.Users = users.Select(records => new UserModel()
+                {
+                    AccountImage = records.a.AccountImage ?? string.Empty,
+                    AccountID = records.a.AccountID,
+                    ClientID = records.c.ClientID,
+                    StaffID = records.s.StaffID,
+                    AccountUsername = records.a.AccountUsername,
+                    ClientFirstName = records.c.ClientFirstName,
+                    ClientLastName = records.c.ClientLastName,
+                    AccountEmail = records.a.AccountEmail,
+                    ClientAddress = records.c.ClientAddress,
+                    ClientConNum = records.c.ClientConNum,
+                    ClientGender = records.c.ClientGender,
+                    RoleID = records.ur.LookUpRoleID,
+                    RoleName = records.r.RoleName 
+                    
+                }).ToList();
+            }
+            return list;
+        }
         public bool IsLoginNameExist(string userName)
         {
             using (MyDBContext db = new MyDBContext())

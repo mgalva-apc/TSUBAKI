@@ -22,20 +22,16 @@ namespace TSUBAKI.Controllers
             return View();
         }
 
-        [AuthorizeRoles("Client, Staff")]
-        public ActionResult AccountSettings()
-        {
-
-            UserManager um = new UserManager();
-            UsersModel user = um.GetAllUsers();
-            return View(user);
-        }
-
-        [AuthorizeRoles("Client, Staff")]
+        [AuthorizeRoles("Client", "Staff")]
         public ActionResult Dashboard()
         {
             UserManager um = new UserManager();
-            UsersModel user = um.GetAllUsers();
+            string UserName = User.Identity.Name;
+            UsersModel user = um.GetSpecificUsers(UserName);
+            if (user == null)
+            {
+                return NotFound();
+            }
             return View(user);
         }
 
