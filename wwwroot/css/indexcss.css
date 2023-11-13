@@ -37,7 +37,7 @@ div#flashingtext{
     padding-bottom: 1.2vh;
     text-align: center;
     font-size: 1.4vw;
-    background-color: #Ee9898;
+    background-color: maroon;
     height: 6.4vh;
     width: 55vw;
     border: 8px solid white;
@@ -97,7 +97,7 @@ div#index-desc {
 .index-slide{
     z-index:1;
     position: absolute;
-    top: 6vw;
+    top: 3vw;
     left: 6vw;
     border-radius: 5%;
     border: 2px white solid;
@@ -112,8 +112,9 @@ div#index-desc {
 .content3{
     border: 1px solid blue;
     margin-top: 5vh;
-    background-color:paleturquoise;
+    background-color: bisque;
     width: 88vw;
     height: 48vh;
     border-radius: 25px;
+    margin-top: 7vh;
 }

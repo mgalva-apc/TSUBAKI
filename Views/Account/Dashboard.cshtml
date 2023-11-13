@@ -9,45 +9,34 @@
     <link href="~/css/dashb.css" rel="stylesheet">
 </head>
 <body>
-    @foreach (var i in Model.Users)
-        {
-            <div class="welcomegreet">
-                <h1>Welcome back, @Html.DisplayFor(m => i.ClientFirstName)!</h1>
-            </div>
-        }
+    <div class="welcomegreet">
+        <h1>Welcome back, TodayIs_Wendy! [SAMPLE USER]</h1>
+    </div>
     <div class="container">
         <div class="leftside">
-            @foreach (var i in Model.Users)
-            {
                 <div class="profilephoto">
-                    @if (!string.IsNullOrEmpty(i.AccountImage))
-                        {
-                            <img id="pp" src="@i.AccountImage" alt="Account Image"/>
-                        }
+                    <img id="pp" src="~/media/WendyID.jpg" alt="Account Image"/>
                 </div>
                 <div class="moredeets">
-                    <p>@Html.DisplayFor(m => i.RoleName)</p>
+                    <h3>TodayIs_Wendy</h3>
+                    <p id="role">Client</p>
                 </div>
-            }
         </div>
         <div id="rightside">
-            @foreach (var i in Model.Users)
-            {
-                <div class="profdeets">
-                    <p id="field">NAME:</p> 
-                    <p id="input">@Html.DisplayFor(m => i.ClientFirstName) @Html.DisplayFor(m => i.ClientLastName)</p>
-                    <p id="field">EMAIL:</p> 
-                    <p id="input">@Html.DisplayFor(m => i.AccountEmail)</p>
-                    <p id="field">GENDER:</p> 
-                    <p id="input">@Html.DisplayFor(m => i.ClientGender)</p>
-                    <p id="field">ADDRESS:</p> 
-                    <p id="input">@Html.DisplayFor(m => i.ClientAddress)</p>
-                    <p id="field">CONTACT NUMBER:</p> 
-                    <p id="input">@Html.DisplayFor(m => i.ClientConNum)</p>
-                    <p id="field">BIRTHDAY:</p> 
-                    <p id="input">@Html.DisplayFor(m => i.ClientBirthday)</p>
-                </div>
-            } 
+            <div class="profdeets">
+                <p id="field">NAME:</p> 
+                <p id="input">Wendy Velvet</p>
+                <p id="field">EMAIL:</p> 
+                <p id="input">sonseungwan@redvelvet.sm.com</p>
+                <p id="field">GENDER:</p> 
+                <p id="input">F</p>
+                <p id="field">ADDRESS:</p> 
+                <p id="input">Block 20, Lot 14, August Village, Red Velvet, SM Town</p>
+                <p id="field">CONTACT NUMBER:</p> 
+                <p id="input">09208394893</p>
+                <p id="field">BIRTHDAY:</p> 
+                <p id="input">February 21, 1994</p>
+            </div> 
         </div>
     </div>
 </body>
