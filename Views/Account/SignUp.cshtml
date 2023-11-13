@@ -7,7 +7,7 @@
 }
 <head>
     <meta charset="utf-8">
-    <link href="~/css/signup.css" rel="stylesheet">
+    <link href="~/css/signup.css" rel="stylesheet"> 
 </head>
 <body>
     <div class="contentwrapper">
@@ -110,7 +110,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            @Html.LabelFor(model => model.ClientConNum, htmlAttributes: new { @class ="control-label col-md-2" })
+                            @Html.LabelFor(model => model.ClientConNum, htmlAttributes: new { @class ="control-label col-md-6" })
                             <div class="col-md-10">
                                 @Html.EditorFor(model => model.ClientConNum, new { htmlAttributes = new {@class = "form-control" } })
                                 @Html.ValidationMessageFor(model => model.ClientConNum, "", new { @class = "text-danger"

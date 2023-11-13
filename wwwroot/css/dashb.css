@@ -8,7 +8,7 @@
 div#rightside{
     background-color:aliceblue;
     width: 70vw;
-    height: 95vh;
+    height: 115vh;
     padding: 5vh;
 }
 
@@ -16,7 +16,7 @@ div#rightside{
     background-color: lightpink;
     text-align: center;
     width: 25vw;
-    height: 95vh;
+    height: 115vh;
     padding: 5vh;
 }
 
@@ -31,8 +31,13 @@ p#input{
     padding: 0.5vw;
 }
 
+p#role{
+    font-style:italic;
+}
+
 img#pp{
     width: 15vw;
+    margin-top: 15vh;
     border-radius: 50%;
 }
 

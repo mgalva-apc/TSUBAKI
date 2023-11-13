@@ -163,7 +163,6 @@ namespace TSUBAKI.Models.EntityManager
                     ClientGender = records.c.ClientGender,
                     RoleID = records.ur.LookUpRoleID,
                     RoleName = records.r.RoleName 
-                    
                 }).ToList();
             }
             return list;

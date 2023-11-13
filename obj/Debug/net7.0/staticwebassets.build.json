@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3P/9JtcV5NEWq4W9A0FuBo8TDsTnpaCr7vQBJWv65kI=",
+  "Hash": "o+ymLSXw0v3oF75ndEPY2KbyBl9tZyoAcaZ7qdSnN/g=",
   "Source": "TSUBAKI",
   "BasePath": "_content/TSUBAKI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TSUBAKI\\wwwroot",
       "Source": "TSUBAKI",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TSUBAKI.styles.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TSUBAKI.styles.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Computed",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "TSUBAKI.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TSUBAKI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TSUBAKI.styles.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TSUBAKI.bundle.scp.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TSUBAKI.bundle.scp.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Computed",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "TSUBAKI.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TSUBAKI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TSUBAKI.bundle.scp.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\bookingcss.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\css\\bookingcss.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "css/bookingcss.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bookingcss.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\dashb.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\css\\dashb.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "css/dashb.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\dashb.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\indexcss.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\css\\indexcss.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "css/indexcss.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\indexcss.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\login.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\css\\login.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\signup.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\css\\signup.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "css/signup.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\signup.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\css\\site.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\css\\viewpointcss.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\css\\viewpointcss.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "css/viewpointcss.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\viewpointcss.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\favicon.ico",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\js\\bookingjs.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\js\\bookingjs.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "js/bookingjs.js",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bookingjs.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\js\\indexjs.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\js\\indexjs.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "js/indexjs.js",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\js\\indexjs.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\js\\site.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\booking-bg.png",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\booking-bg.png",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "media/booking-bg.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\media\\booking-bg.png"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\calendar-placeholder.jpg",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\calendar-placeholder.jpg",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "media/calendar-placeholder.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\media\\calendar-placeholder.jpg"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\indexslides\\1.png",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\indexslides\\1.png",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "media/indexslides/1.png",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\media\\indexslides\\1.png"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\indexslides\\2.png",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\indexslides\\2.png",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "media/indexslides/2.png",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\media\\indexslides\\2.png"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\indexslides\\3.png",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\indexslides\\3.png",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "media/indexslides/3.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\media\\indexslides\\3.png"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\indexslides\\4.png",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\indexslides\\4.png",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "media/indexslides/4.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\media\\indexslides\\4.png"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\indexslides\\5.png",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\indexslides\\5.png",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "media/indexslides/5.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\media\\indexslides\\5.png"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\placeholder-image.jpg",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\placeholder-image.jpg",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "media/placeholder-image.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\media\\placeholder-image.jpg"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\singup-bg.png",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\singup-bg.png",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "media/singup-bg.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\media\\singup-bg.png"
     },
     {
-      "Identity": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\media\\vidbg.mp4",
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\vidbg.mp4",
       "SourceId": "TSUBAKI",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\TSUBAKI\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
       "BasePath": "_content/TSUBAKI",
       "RelativePath": "media/vidbg.mp4",
       "AssetKind": "All",
@@ -1375,6 +1375,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\vidbg.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\media\\WendyID.jpg",
+      "SourceId": "TSUBAKI",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Beatrice\\Documents\\entj\\TSUBAKI\\wwwroot\\",
+      "BasePath": "_content/TSUBAKI",
+      "RelativePath": "media/WendyID.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\WendyID.jpg"
     }
   ]
 }
