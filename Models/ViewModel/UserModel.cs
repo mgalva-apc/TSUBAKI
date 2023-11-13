@@ -12,22 +12,22 @@ namespace TSUBAKI.Models.ViewModel
         public int ClientID {get; set;}
         public int StaffID {get; set;}
 
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "* This field is required")]
+        [StringLength(20, ErrorMessage = "Maximum length is 20 characters.")]
         [Display(Name = "Username")]
         public string AccountUsername {get; set;}
 
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "* This field is required")]
+        [RegularExpression(@"^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$", ErrorMessage = "Password must be at least 8 characters long and contain at least one letter, one digit, and one special character.")]
         [Display(Name = "Password")]
         public string Password { get; set; }
-        /*
-        [Required(ErrorMessage = "*")]
-        [Display(Name = "Password")]
-        public string AccountPassword {get; set;}
-        */
+
         [Display(Name = "Account Type")]
         public string AccountType {get; set;}
 
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "* This field is required")]
+        [RegularExpression(@"^[\w\.-]+@[\w\.-]+\.\w+$", ErrorMessage = "Needs to be a valid email address.")]
+        [StringLength(150, ErrorMessage = "Maximum length is 150 characters.")]
         [EmailAddress(ErrorMessage = "Invalid Email Address")]
         [Display(Name = "Account Email")]
         public string AccountEmail {get; set;}
@@ -35,52 +35,36 @@ namespace TSUBAKI.Models.ViewModel
         [Required(AllowEmptyStrings = true)]
         public string AccountImage { get; set; }
 
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "* This field is required")]
         [StringLength(50, ErrorMessage = "Maximum length is 50 characters.")]
         [Display(Name = "Client First Name")]
         public string ClientFirstName {get; set;}
 
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "* This field is required")]
         [StringLength(50, ErrorMessage = "Maximum length is 50 characters.")]
         [Display(Name = "Client Last Name")]
         public string ClientLastName {get; set;}
 
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "* This field is required")]
+        [StringLength(75, ErrorMessage = "Maximum length is 75 characters.")]
         [Display(Name = "Client Address")]
         public string ClientAddress {get; set;}
 
         [Display(Name = "Client Gender")]
         public string ClientGender {get; set;}
 
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "* This field is required")]
+        [RegularExpression(@"^[0-9]{8,}$", ErrorMessage = "Numbers Only")]
+        [StringLength(12, ErrorMessage = "Maximum length is 12 characters.")]
         [Display(Name = "Client Contact Number")]
         public string ClientConNum {get; set;}
 
         public DateTime ClientBirthday {get; set;}
-/*
-        
-        [Required(ErrorMessage = "*")]
-        [Display(Name = "Staff First Name")]
-        public string StaffFirstName {get; set;}
 
-        [Required(ErrorMessage = "*")]
-        [Display(Name = "Staff Last Name")]
-        public string StaffLastName {get; set;}
-
-        public string StaffRole {get; set;}
-
-        public string StaffGender {get; set;}
-
-        [Required(ErrorMessage = "*")]
-        [Display(Name = "Staff Contact Number")]
-        public int StaffConNum {get; set;}
-
-        public DateTime StaffBirthday {get; set;}
-*/
         public int RoleID { get; set; }
         public string RoleName { get; set; }
         
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "* This field is required")]
         [Display(Name = "Created By")]
         public int CreatedBy {get; set;}
     }

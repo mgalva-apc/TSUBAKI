@@ -26,7 +26,7 @@ namespace TSUBAKI.Models.DB
         {
             if(!optionsBuilder.IsConfigured)
             {
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\AYAKADB; Initial Catalog=AYAKADB; Integrated Security=True; Multiple Active Result Sets=True");
+            optionsBuilder.UseSqlServer("Data Source=(localdb)\\AYAKADB; Initial Catalog=AyakaDB; Integrated Security=True; Multiple Active Result Sets=True");
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -65,7 +65,8 @@ namespace TSUBAKI.Models.DB
 
                 entity.Property(e => e.AccountImage)
                 .HasColumnName("ACC_Image")
-                .IsUnicode(false);
+                .IsUnicode(false)
+                .IsRequired(false);
 
                 entity.Property(e => e.AccountCreateDate)
                 .HasColumnName("ACC_CreateDate")

@@ -5,7 +5,7 @@ CREATE TABLE [dbo].[SYSAccount](
 [Salt] [varchar](128) NOT NULL,
 [ACC_Type] [varchar](10) NOT NULL,
 [ACC_Email] [varchar](150) NOT NULL,
-[ACC_Image] [varchar](MAX) NOT NULL,
+[ACC_Image] [varchar](MAX) NULL,
 [ACC_CreateDate] [datetime] DEFAULT GETDATE(),
 [ACC_ModDate] [datetime] DEFAULT GETDATE(),
 PRIMARY KEY (ACC_ID)

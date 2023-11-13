@@ -92,9 +92,10 @@ namespace TSUBAKI.Controllers
                     {
                         ModelState.AddModelError("", "The password provided is incorrect.");
                     }
+                    
                 }
-                // If authentication fails or ModelState is invalid, redisplay the login form
-                return View();
+            // If authentication fails or ModelState is invalid, redisplay the login form
+            return View();
         }
             
         [HttpPost]
